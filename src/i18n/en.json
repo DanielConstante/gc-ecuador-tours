@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover the Magic of Ecuador",
+    "subtitle": "Private tours and personalized transport in a 7-seat SUV. Live unique experiences with exclusive attention.",
+    "ctaTours": "View Tours",
+    "ctaContact": "Contact Us"
+  },
+  "featured": {
+    "title": "Featured Tours",
+    "subtitle": "Selected experiences to discover the best of Ecuador",
+    "viewAll": "View all tours"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Transport and tours designed for your comfort",
+    "privateTransport": {
+      "title": "Private Transport",
+      "description": "7-seat SUV with professional bilingual driver"
+    },
+    "personalizedTours": {
+      "title": "Personalized Tours",
+      "description": "Flexible itineraries adapted to your interests and time"
+    },
+    "airportTransfers": {
+      "title": "Airport Transfers",
+      "description": "Punctual pickup and airport transfer service"
+    },
+    "adventure": {
+      "title": "4x4 Adventure",
+      "description": "Off-road excursions to the most remote destinations"
+    }
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "subtitle": "A local operator, committed to your experience",
+    "personalized": {
+      "title": "Personalized Attention",
+      "description": "I'm an independent operator dedicated exclusively to your group, providing 100% personalized attention."
+    },
+    "flexible": {
+      "title": "Flexible Schedules",
+      "description": "We adapt schedules and routes according to your preferences and specific needs."
+    },
+    "experience": {
+      "title": "Local Experience",
+      "description": "Deep knowledge of Ecuador, its routes, culture, and the best places to visit."
+    },
+    "comfort": {
+      "title": "Maximum Comfort",
+      "description": "Spacious 7-seat SUV, perfect for families and small groups."
+    }
+  },
+  "toursPage": {
+    "title": "Our Tours",
+    "subtitle": "Discover Ecuador with our private tours",
+    "filters": {
+      "allCities": "All cities",
+      "allCategories": "All categories",
+      "priceRange": "Price range",
+      "filterBy": "Filter by"
+    },
+    "duration": "Duration",
+    "price": "Price",
+    "perPerson": "per person",
+    "viewDetails": "View details",
+    "bookNow": "Book now",
+    "noResults": "No tours found with selected filters"
+  },
+  "tourDetails": {
+    "duration": "Duration",
+    "price": "Price",
+    "category": "Category",
+    "includes": "Includes",
+    "description": "Description",
+    "gallery": "Gallery",
+    "bookWhatsApp": "Book via WhatsApp",
+    "downloadPDF": "Download PDF",
+    "relatedTours": "Related tours"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready for your adventure? Write to us and let's plan together",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Sangolquí, Ecuador",
+    "availability": "Available every day from 6:00 AM to 8:00 PM"
+  },
+  "footer": {
+    "tagline": "Private tours and personalized transport in Ecuador",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "rights": "All rights reserved"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "es": "Español",
+    "en": "English"
+  },
+  "pdf": {
+    "tourInfo": "Tour Information",
+    "contactInfo": "Contact Information",
+    "generated": "Generated on",
+    "bookNow": "Book now!",
+    "website": "Website"
+  }
+}
