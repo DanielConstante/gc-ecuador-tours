@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
+import { useDocumentHead } from '@/hooks/useDocumentHead';
 import { 
   MapPin, 
   Clock, 
@@ -70,23 +70,27 @@ export function Home() {
     },
   ];
 
+  useDocumentHead({
+    title: lang === 'es'
+      ? 'Ecuador Tours & Transport | Tours Privados en Ecuador'
+      : 'Ecuador Tours & Transport | Private Tours in Ecuador',
+    meta: [
+      { name: 'description', content: lang === 'es'
+        ? 'Descubre Ecuador con tours privados y transporte personalizado. SUV de 7 asientos, guía bilingüe, experiencias únicas en Quito, Cotopaxi, Baños y más.'
+        : 'Discover Ecuador with private tours and personalized transport. 7-seat SUV, bilingual guide, unique experiences in Quito, Cotopaxi, Baños and more.' },
+      { property: 'og:title', content: 'Ecuador Tours & Transport' },
+      { property: 'og:description', content: lang === 'es'
+        ? 'Tours privados y transporte personalizado en Ecuador'
+        : 'Private tours and personalized transport in Ecuador' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://ecuadortours.com' },
+      { property: 'og:image', content: 'https://ecuadortours.com/images/og-image.jpg' },
+    ],
+    canonical: 'https://ecuadortours.com/',
+  });
+
   return (
     <>
-      <Helmet>
-        <title>{lang === 'es' ? 'Ecuador Tours & Transport | Tours Privados en Ecuador' : 'Ecuador Tours & Transport | Private Tours in Ecuador'}</title>
-        <meta name="description" content={lang === 'es' 
-          ? 'Descubre Ecuador con tours privados y transporte personalizado. SUV de 7 asientos, guía bilingüe, experiencias únicas en Quito, Cotopaxi, Baños y más.' 
-          : 'Discover Ecuador with private tours and personalized transport. 7-seat SUV, bilingual guide, unique experiences in Quito, Cotopaxi, Baños and more.'} />
-        <meta property="og:title" content="Ecuador Tours & Transport" />
-        <meta property="og:description" content={lang === 'es' 
-          ? 'Tours privados y transporte personalizado en Ecuador' 
-          : 'Private tours and personalized transport in Ecuador'} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ecuadortours.com" />
-        <meta property="og:image" content="https://ecuadortours.com/images/og-image.jpg" />
-        <link rel="canonical" href="https://ecuadortours.com/" />
-      </Helmet>
-
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

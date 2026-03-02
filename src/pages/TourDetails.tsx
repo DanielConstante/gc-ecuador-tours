@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
+import { useDocumentHead } from '@/hooks/useDocumentHead';
 import { motion } from 'framer-motion';
 import { 
   Clock, 
@@ -91,23 +91,23 @@ export function TourDetails() {
     },
   };
 
+  useDocumentHead({
+    title: `${tour.name[lang]} | Ecuador Tours & Transport`,
+    meta: [
+      { name: 'description', content: tour.description[lang].substring(0, 160) },
+      { property: 'og:title', content: tour.name[lang] },
+      { property: 'og:description', content: tour.description[lang].substring(0, 200) },
+      { property: 'og:type', content: 'article' },
+      { property: 'og:url', content: `https://ecuadortours.com/tours/${tour.slug}` },
+      { property: 'og:image', content: `https://ecuadortours.com${tour.image}` },
+      { property: 'article:published_time', content: new Date().toISOString() },
+    ],
+    canonical: `https://ecuadortours.com/tours/${tour.slug}`,
+    jsonLd: tourSchema,
+  });
+
   return (
     <>
-      <Helmet>
-        <title>{`${tour.name[lang]} | Ecuador Tours & Transport`}</title>
-        <meta name="description" content={tour.description[lang].substring(0, 160)} />
-        <meta property="og:title" content={tour.name[lang]} />
-        <meta property="og:description" content={tour.description[lang].substring(0, 200)} />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://ecuadortours.com/tours/${tour.slug}`} />
-        <meta property="og:image" content={`https://ecuadortours.com${tour.image}`} />
-        <meta property="article:published_time" content={new Date().toISOString()} />
-        <link rel="canonical" href={`https://ecuadortours.com/tours/${tour.slug}`} />
-        <script type="application/ld+json">
-          {JSON.stringify(tourSchema)}
-        </script>
-      </Helmet>
-
       <main className="min-h-screen pt-20 pb-16">
         {/* Hero Section */}
         <section className="relative h-[50vh] sm:h-[60vh] overflow-hidden">

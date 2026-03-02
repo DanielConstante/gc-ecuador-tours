@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
@@ -11,8 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <HelmetProvider>
-      <ThemeProvider>
+    <ThemeProvider>
         <BrowserRouter>
           <div className="min-h-screen bg-[#F4F9FF] dark:bg-[#0F172A] transition-colors duration-300">
             <Navbar />
@@ -25,7 +23,6 @@ function App() {
           </div>
         </BrowserRouter>
       </ThemeProvider>
-    </HelmetProvider>
   );
 }
 

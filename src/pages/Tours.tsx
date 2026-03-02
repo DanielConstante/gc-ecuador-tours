@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
+import { useDocumentHead } from '@/hooks/useDocumentHead';
 import { motion } from 'framer-motion';
 import { Filter, MapPin, Tag, DollarSign, X } from 'lucide-react';
 import { useTours } from '@/hooks/useTours';
@@ -45,18 +45,24 @@ export function Tours() {
     setPriceRange([0, maxPrice]);
   };
 
+  useDocumentHead({
+    title: lang === 'es'
+      ? 'Nuestros Tours | Ecuador Tours & Transport'
+      : 'Our Tours | Ecuador Tours & Transport',
+    meta: [
+      { name: 'description', content: lang === 'es'
+        ? 'Descubre todos nuestros tours privados en Ecuador. Quito, Cotopaxi, Baños, Otavalo y más destinos increíbles con transporte personalizado.'
+        : 'Discover all our private tours in Ecuador. Quito, Cotopaxi, Baños, Otavalo and more incredible destinations with personalized transport.' },
+      { property: 'og:title', content: lang === 'es' ? 'Nuestros Tours' : 'Our Tours' },
+      { property: 'og:description', content: lang === 'es'
+        ? 'Descubre Ecuador con nuestros tours privados'
+        : 'Discover Ecuador with our private tours' },
+    ],
+    canonical: 'https://ecuadortours.com/tours',
+  });
+
   return (
     <>
-      <Helmet>
-        <title>{lang === 'es' ? 'Nuestros Tours | Ecuador Tours & Transport' : 'Our Tours | Ecuador Tours & Transport'}</title>
-        <meta name="description" content={lang === 'es' 
-          ? 'Descubre todos nuestros tours privados en Ecuador. Quito, Cotopaxi, Baños, Otavalo y más destinos increíbles con transporte personalizado.' 
-          : 'Discover all our private tours in Ecuador. Quito, Cotopaxi, Baños, Otavalo and more incredible destinations with personalized transport.'} />
-        <meta property="og:title" content={lang === 'es' ? 'Nuestros Tours' : 'Our Tours'} />
-        <meta property="og:description" content={lang === 'es' ? 'Descubre Ecuador con nuestros tours privados' : 'Discover Ecuador with our private tours'} />
-        <link rel="canonical" href="https://ecuadortours.com/tours" />
-      </Helmet>
-
       <main className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
