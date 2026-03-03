@@ -2,9 +2,15 @@
   {
     "id": 1,
     "slug": "quito-city-tour",
-    "name": { "es": "Tour Ciudad de Quito", "en": "Quito City Tour" },
+    "name": {
+      "es": "Tour Ciudad de Quito",
+      "en": "Quito City Tour"
+    },
     "city": "Quito",
-    "duration": { "es": "Aprox. 8 horas — regreso al hotel ~16:00", "en": "Approx. 8 hours — return to hotel ~16:00" },
+    "duration": {
+      "es": "Aprox. 8 horas — regreso al hotel ~16:00",
+      "en": "Approx. 8 hours — return to hotel ~16:00"
+    },
     "price": 150,
     "currency": "USD",
     "category": "Cultural",
@@ -72,9 +78,15 @@
   {
     "id": 2,
     "slug": "mitad-del-mundo",
-    "name": { "es": "Tour Mitad del Mundo", "en": "Middle of the World Tour" },
+    "name": {
+      "es": "Tour Mitad del Mundo",
+      "en": "Middle of the World Tour"
+    },
     "city": "Quito",
-    "duration": { "es": "Aprox. 4 horas", "en": "Approx. 4 hours" },
+    "duration": {
+      "es": "Aprox. 4 horas",
+      "en": "Approx. 4 hours"
+    },
     "price": 80,
     "currency": "USD",
     "category": "Cultural",
@@ -122,59 +134,17 @@
     "featured": true
   },
   {
-    "id": 4,
-    "slug": "cotopaxi-volcano",
-    "name": { "es": "Aventura Cotopaxi", "en": "Cotopaxi Volcano Adventure" },
-    "city": "Cotopaxi",
-    "duration": { "es": "10 horas", "en": "10 hours" },
-    "price": 120,
-    "currency": "USD",
-    "category": "Aventura",
-    "includes": {
-      "es": ["Transporte privado en SUV 4x4", "Guía experimentado", "Entrada al Parque Nacional", "Equipo de senderismo", "Almuerzo típico"],
-      "en": ["Private 4x4 SUV transport", "Experienced guide", "National Park entrance fee", "Hiking equipment", "Typical lunch"]
-    },
-    "description": {
-      "es": "Asciende hasta el refugio José Rivas a 4.864 metros sobre el nivel del mar en el volcán Cotopaxi, uno de los volcanes activos más altos del mundo. Disfruta de paisajes andinos espectaculares, lagunas glaciares y la posibilidad de avistar cóndores andinos. Una experiencia inolvidable para amantes de la naturaleza y la aventura.",
-      "en": "Ascend to José Rivas refuge at 4,864 meters above sea level on Cotopaxi Volcano, one of the highest active volcanoes in the world. Enjoy spectacular Andean landscapes, glacial lagoons, and the possibility of spotting Andean condors. An unforgettable experience for nature and adventure lovers."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/cotopaxi.jpg",
-    "featured": true
-  },
-  {
-    "id": 5,
-    "slug": "banos-adventure",
-    "name": { "es": "Baños - Puerta al Amazonas", "en": "Baños - Gateway to the Amazon" },
-    "city": "Baños",
-    "duration": { "es": "12 horas", "en": "12 hours" },
-    "price": 150,
-    "currency": "USD",
-    "category": "Aventura",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Visita a la Cascada Pailón del Diablo", "Paseo en tarabita", "Tiempo libre en aguas termales", "Guía bilingüe"],
-      "en": ["Private SUV transport", "Visit to Pailón del Diablo Waterfall", "Cable car ride", "Free time at hot springs", "Bilingual guide"]
-    },
-    "description": {
-      "es": "Descubre Baños de Agua Santa, un paraíso de aventura ubicado entre la cordillera andina y la amazonía. Camina hasta la impresionante Cascada Pailón del Diablo, cruza el río Pastaza en tarabita, relájate en aguas termales naturales y disfruta de la famosa Ruta de las Cascadas. Un día lleno de adrenalina y naturaleza.",
-      "en": "Discover Baños de Agua Santa, an adventure paradise located between the Andean mountains and the Amazon. Walk to the impressive Pailón del Diablo Waterfall, cross the Pastaza River by cable car, relax in natural hot springs, and enjoy the famous Waterfall Route. A day full of adrenaline and nature."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/banos.jpg",
-    "featured": true
-  },
-  {
     "id": 3,
     "slug": "otavalo-market",
-    "name": { "es": "Tour Otavalo y Cascadas — Día Completo", "en": "Otavalo & Falls Tour — Full Day" },
+    "name": {
+      "es": "Tour Otavalo y Cascadas — Día Completo",
+      "en": "Otavalo & Falls Tour — Full Day"
+    },
     "city": "Otavalo",
-    "duration": { "es": "Día completo desde Quito", "en": "Full day trip from Quito" },
+    "duration": {
+      "es": "Día completo desde Quito",
+      "en": "Full day trip from Quito"
+    },
     "price": 190,
     "currency": "USD",
     "category": "Cultural",
@@ -232,99 +202,203 @@
     "featured": true
   },
   {
-    "id": 6,
-    "slug": "quilotoa-lagoon",
-    "name": { "es": "Laguna Mágica de Quilotoa", "en": "Magical Quilotoa Lagoon" },
-    "city": "Quilotoa",
-    "duration": { "es": "10 horas", "en": "10 hours" },
-    "price": 130,
-    "currency": "USD",
-    "category": "Naturaleza",
-    "includes": {
-      "es": ["Transporte privado en SUV 4x4", "Entrada a la laguna", "Caminata al fondo del cráter", "Almuerzo en comunidad indígena", "Guía especializado"],
-      "en": ["Private 4x4 SUV transport", "Lagoon entrance fee", "Hike to crater bottom", "Lunch at indigenous community", "Specialized guide"]
+    "id": 4,
+    "slug": "mindo-3-days",
+    "name": {
+      "es": "Tour Mindo — 2 Noches / 3 Días",
+      "en": "Mindo Tour — 2 Nights / 3 Days"
     },
-    "description": {
-      "es": "Contempla la impresionante Laguna de Quilotoa, un cráter volcánico lleno de agua turquesa ubicado a 3.800 metros de altura. Camina hasta el fondo del cráter, interactúa con comunidades indígenas locales y disfruta de uno de los paisajes más fotografiados de Ecuador. Los colores del agua cambian según la luz del sol.",
-      "en": "Contemplate the stunning Quilotoa Lagoon, a volcanic crater filled with turquoise water located at 3,800 meters altitude. Walk to the bottom of the crater, interact with local indigenous communities, and enjoy one of Ecuador's most photographed landscapes. The water colors change according to sunlight."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/quilotoa.jpg",
-    "featured": true
-  },
-  {
-    "id": 7,
-    "slug": "papallacta-thermas",
-    "name": { "es": "Termas de Papallacta", "en": "Papallacta Hot Springs" },
-    "city": "Papallacta",
-    "duration": { "es": "7 horas", "en": "7 hours" },
-    "price": 95,
-    "currency": "USD",
-    "category": "Relax",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Entrada a termas", "Toalla y locker", "Almuerzo buffet", "Caminata opcional en páramo"],
-      "en": ["Private SUV transport", "Hot springs entrance", "Towel and locker", "Buffet lunch", "Optional páramo hike"]
-    },
-    "description": {
-      "es": "Relájate en las aguas termales naturales de Papallacta, ubicadas en un entorno montañoso espectacular a 3.300 metros de altura. Las aguas provienen de los volcanes cercanos y son ricas en minerales beneficiosos para la salud. Incluye caminata opcional por el ecosistema único del páramo andino.",
-      "en": "Relax in the natural hot springs of Papallacta, located in a spectacular mountain setting at 3,300 meters altitude. The waters come from nearby volcanoes and are rich in health-beneficial minerals. Includes optional hike through the unique Andean páramo ecosystem."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/papallacta.jpg",
-    "featured": false
-  },
-  {
-    "id": 8,
-    "slug": "mindo-cloud-forest",
-    "name": { "es": "Bosque Nublado de Mindo", "en": "Mindo Cloud Forest" },
     "city": "Mindo",
-    "duration": { "es": "10 horas", "en": "10 hours" },
-    "price": 115,
+    "duration": {
+      "es": "3 días / 2 noches",
+      "en": "3 days / 2 nights"
+    },
+    "price": 580,
     "currency": "USD",
     "category": "Naturaleza",
     "includes": {
-      "es": ["Transporte privado en SUV", "Caminata guiada", "Visita a mariposario", "Cascadas de Mindo", "Degustación de chocolate artesanal"],
-      "en": ["Private SUV transport", "Guided hike", "Butterfly farm visit", "Mindo Waterfalls", "Artisanal chocolate tasting"]
+      "es": [
+        "Salida desde Quito",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Parada en Museo Intiñán (entrada: $5/persona, no incluida)",
+        "2 noches en hotel en Mindo",
+        "Comidas del guía/conductor incluidas",
+        "Tour de Yumbos Chocolate",
+        "Avistamiento de colibríes",
+        "Cascada de Nambillo",
+        "Visita a la granja de mariposas",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Departure from Quito",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Stop at Intiñan Museum (entrance: $5/person, not included)",
+        "2 nights hotel in Mindo",
+        "Meals for guide/driver included",
+        "Yumbos Chocolate tour",
+        "Hummingbird watching",
+        "Nambillo Waterfall tour",
+        "Butterfly farm visit",
+        "Return to Quito"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "DÍA 1 — Salida desde Quito con parada en Museo Intiñán (entrada: $5/persona, no incluida). Llegada a Mindo. Tour de Yumbos Chocolate — proceso artesanal del cacao al chocolate. Tour del pueblo de Mindo. Cena y alojamiento en Mindo.",
+        "DÍA 2 — Avistamiento de colibríes — más de 400 especies de aves en el bosque nublado. Tour a la Cascada de Nambillo. Almuerzo. Tarde libre en Mindo. Cena y alojamiento en Mindo.",
+        "DÍA 3 — Visita a la granja de mariposas. Tour del pueblo de Mindo. Almuerzo. Regreso a Quito."
+      ],
+      "en": [
+        "DAY 1 — Departure from Quito with stop at Intiñan Museum (entrance: $5/person, not included). Arrival in Mindo. Yumbos Chocolate tour — artisanal cacao-to-chocolate process. Mindo town tour. Dinner and overnight in Mindo.",
+        "DAY 2 — Hummingbird watching — over 400 bird species in the cloud forest. Tour to Nambillo Waterfall. Lunch. Free afternoon in Mindo. Dinner and overnight in Mindo.",
+        "DAY 3 — Butterfly farm visit. Mindo town tour. Lunch. Return to Quito."
+      ]
     },
     "description": {
-      "es": "Explora Mindo, uno de los mejores destinos para observación de aves del mundo con más de 500 especies. Camina por el bosque nublado, visita un mariposario con especies exóticas, nada en cascadas cristalinas y aprende sobre el proceso del chocolate desde el árbol hasta la barra en una finca local.",
-      "en": "Explore Mindo, one of the world's best birdwatching destinations with over 500 species. Walk through the cloud forest, visit a butterfly farm with exotic species, swim in crystal-clear waterfalls, and learn about the chocolate process from tree to bar at a local farm."
+      "es": "Sumérgete durante tres días en el paraíso del Bosque Nublado de Mindo. Salimos desde Quito con una parada especial en el Museo Intiñán en la Mitad del Mundo. Al llegar a Mindo, comenzamos con el Tour de Yumbos Chocolate y un recorrido por el pueblo. El segundo día está dedicado al avistamiento de colibríes entre más de 400 especies de aves y una caminata a la impresionante Cascada de Nambillo. El tercer día visitamos la colorida granja de mariposas antes de regresar a Quito. El precio incluye hotel y comidas para el guía/conductor.",
+      "en": "Immerse yourself for three days in the paradise of the Mindo Cloud Forest. We depart from Quito with a special stop at the Intiñan Museum at the Middle of the World. Upon arriving in Mindo, we begin with the Yumbos Chocolate tour and a town exploration. The second day is dedicated to hummingbird watching among over 400 bird species and a hike to the impressive Nambillo Waterfall. On the third day we visit the colorful butterfly farm before returning to Quito. Price includes hotel and meals for the guide/driver."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Entrada al Museo Intiñán ($5,00 por persona) no incluida. Precio incluye hotel 2 noches y comidas del guía/conductor.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Intiñan Museum entrance ($5.00 per person) not included. Price includes 2 nights hotel and meals for the guide/driver."
     },
     "image": "/images/mindo.jpg",
     "featured": false
   },
   {
-    "id": 9,
-    "slug": "teleferico-quito",
-    "name": { "es": "Teleférico y Centro Histórico", "en": "Cable Car & Historic Center" },
-    "city": "Quito",
-    "duration": { "es": "6 horas", "en": "6 hours" },
-    "price": 75,
+    "id": 5,
+    "slug": "cotopaxi-volcano",
+    "name": {
+      "es": "Parque Nacional Cotopaxi — Día Completo",
+      "en": "Cotopaxi National Park Day Tour"
+    },
+    "city": "Cotopaxi",
+    "duration": {
+      "es": "Día completo desde Quito",
+      "en": "Full day from Quito"
+    },
+    "price": 180,
     "currency": "USD",
-    "category": "Cultural",
+    "category": "Aventura",
     "includes": {
-      "es": ["Transporte privado en SUV", "Ticket teleférico", "Tour centro histórico", "Guía bilingüe", " Café en Cruz Loma"],
-      "en": ["Private SUV transport", "Cable car ticket", "Historic center tour", "Bilingual guide", "Coffee at Cruz Loma"]
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV",
+        "Guía local autorizado (requerido por Ministerio del Ambiente)",
+        "Permiso de entrada al parque",
+        "Caminata alrededor de la laguna Limpiapungo a 3.800 m.s.n.m.",
+        "Vistas del volcán Cotopaxi"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private SUV transport",
+        "Authorized local guide (required by Ministry of Environment)",
+        "Park entry permit",
+        "Walk around Limpiapungo Lagoon at 3,800 m.a.s.l.",
+        "Views of Cotopaxi Volcano"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel en Quito",
+        "Carretera Panamericana Sur durante 1 hora y 45 minutos",
+        "Entrada del parque — trámites de permiso (información de pasaporte requerida)",
+        "Visita a la estación del parque con explicación del volcán y fotografías",
+        "Caminata alrededor de la laguna Limpiapungo a 3.800 metros de altura — vistas frontal del volcán",
+        "Almuerzo opcional en Hacienda La Ciénega (no incluido)",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Hotel pickup in Quito",
+        "Southern Pan-American Highway for 1 hour and 45 minutes",
+        "Park entrance — permit processing (passport information required)",
+        "Visit to park station with volcano explanation and photos",
+        "Walk around Limpiapungo Lagoon at 3,800 meters altitude — frontal views of the volcano",
+        "Optional lunch at Hacienda La Ciénega (not included)",
+        "Return to Quito"
+      ]
     },
     "description": {
-      "es": "Sube en el teleférico más alto del mundo hasta Cruz Loma a 4.100 metros con vistas espectaculares de Quito y los volcanes circundantes. Combina esta experiencia con un recorrido por el centro histórico visitando sus plazas coloniales, iglesias y museos más importantes.",
-      "en": "Ride the world's highest cable car to Cruz Loma at 4,100 meters with spectacular views of Quito and surrounding volcanoes. Combine this experience with a tour of the historic center visiting its most important colonial plazas, churches, and museums."
+      "es": "Descubre el majestuoso Parque Nacional Cotopaxi, hogar del volcán activo más alto del mundo. Viajamos en SUV privado durante casi dos horas hacia el sur por la Carretera Panamericana. Una vez en el parque, realizamos una caminata alrededor de la laguna Limpiapungo a 3.800 metros de altura, disfrutando de vistas espectaculares del volcán Cotopaxi en toda su majestuosidad. El guía local autorizado proporciona información detallada sobre la geología, fauna y flora del área. Oportunidad de almuerzo opcional en la histórica Hacienda La Ciénega.",
+      "en": "Discover the majestic Cotopaxi National Park, home to the world's highest active volcano. We travel in a private SUV for nearly two hours south on the Pan-American Highway. Once in the park, we hike around Limpiapungo Lagoon at 3,800 meters altitude, enjoying spectacular views of Cotopaxi Volcano in all its majesty. The authorized local guide provides detailed information about the area's geology, fauna, and flora. Opportunity for optional lunch at the historic Hacienda La Ciénega."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Es obligatorio usar un guía local autorizado por el Ministerio del Ambiente. El precio incluye permiso de entrada al parque ($40,00). Almuerzo opcional en Hacienda La Ciénega no incluido. Para la opción adicional de ascender a 5.200 metros en vehículo 4x4, consulte disponibilidad.",
+      "en": "The rate applies for four passengers. It is mandatory to use an authorized local guide per Ministry of Environment regulations. Price includes park entry permit ($40.00). Optional lunch at Hacienda La Ciénega not included. For additional option to ascend to 5,200 meters in 4x4 vehicle, check availability."
     },
-    "image": "/images/teleferico.jpg",
-    "featured": false
+    "image": "/images/cotopaxi.jpg",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "slug": "quilotoa-lagoon",
+    "name": {
+      "es": "Tour Laguna de Quilotoa — Día Completo",
+      "en": "Quilotoa Lagoon Tour — Full Day"
+    },
+    "city": "Quilotoa",
+    "duration": {
+      "es": "Día completo desde Quito",
+      "en": "Full day from Quito"
+    },
+    "price": 180,
+    "currency": "USD",
+    "category": "Naturaleza",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV",
+        "Acceso al mirador de la laguna",
+        "Descenso a la laguna",
+        "Paseo en kayak (opcional)",
+        "Almuerzo con comida tradicional",
+        "Guía especializado",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private SUV transport",
+        "Lagoon viewpoint access",
+        "Descent to the lagoon",
+        "Kayak ride (optional)",
+        "Traditional food lunch",
+        "Specialized guide",
+        "Return to Quito"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel en Quito",
+        "Viaje hacia Quilotoa",
+        "Mirador de la Laguna de Quilotoa con vistas al cráter volcánico",
+        "Descenso a la laguna (a pie o a caballo)",
+        "Paseo en kayak en la laguna turquesa (opcional)",
+        "Almuerzo con comida tradicional (cuy, pollo de campo) en restaurante local",
+        "Regreso a la laguna o retorno a pie/caballo al mirador",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Hotel pickup in Quito",
+        "Travel to Quilotoa",
+        "Quilotoa Lagoon viewpoint with volcanic crater views",
+        "Descent to the lagoon (on foot or horseback)",
+        "Kayak ride on the turquoise lagoon (optional)",
+        "Lunch with traditional food (guinea pig, country chicken) at local restaurant",
+        "Return to lagoon or hike/horseback ascent back to viewpoint",
+        "Return to Quito"
+      ]
+    },
+    "description": {
+      "es": "Vive una experiencia memorable en la impresionante Laguna de Quilotoa, un cráter volcánico lleno de agua turquesa ubicado a 3.800 metros de altura. Comenzamos con vistas espectaculares desde el mirador de la laguna. Luego desciendes hacia las aguas turquesas del cráter, donde puedes optar por un paseo en kayak o simplemente disfrutar de la naturaleza. Almuerzo delicioso con comida tradicional ecuatoriana, incluyendo especialidades como el cuy y el pollo de campo en un restaurante local autén­tico. El retorno al mirador puedes hacerlo a pie, o si lo prefieres, a caballo por un costo adicional de $15 por persona.",
+      "en": "Experience an unforgettable adventure at the impressive Quilotoa Lagoon, a volcanic crater filled with turquoise water located at 3,800 meters altitude. We start with spectacular views from the lagoon viewpoint. Then you descend to the turquoise crater waters, where you can choose a kayak ride or simply enjoy nature. Delicious lunch with traditional Ecuadorian food, including specialties such as guinea pig and country chicken at an authentic local restaurant. The return ascent to the viewpoint can be done on foot, or if you prefer, on horseback for an additional cost of $15 per person."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros. Paseo en kayak (opcional, costo adicional). Retorno a caballo desde la laguna al mirador: $15 por persona.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers. Kayak ride optional (additional cost). Horseback return from lagoon to viewpoint: $15 per person."
+    },
+    "image": "/images/quilotoa.jpg",
+    "featured": true
   }
 ]
