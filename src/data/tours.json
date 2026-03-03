@@ -71,174 +71,6 @@
   },
   {
     "id": 2,
-    "slug": "cotopaxi-volcano",
-    "name": { "es": "Aventura Cotopaxi", "en": "Cotopaxi Volcano Adventure" },
-    "city": "Cotopaxi",
-    "duration": { "es": "10 horas", "en": "10 hours" },
-    "price": 120,
-    "currency": "USD",
-    "category": "Aventura",
-    "includes": {
-      "es": ["Transporte privado en SUV 4x4", "Guía experimentado", "Entrada al Parque Nacional", "Equipo de senderismo", "Almuerzo típico"],
-      "en": ["Private 4x4 SUV transport", "Experienced guide", "National Park entrance fee", "Hiking equipment", "Typical lunch"]
-    },
-    "description": {
-      "es": "Asciende hasta el refugio José Rivas a 4.864 metros sobre el nivel del mar en el volcán Cotopaxi, uno de los volcanes activos más altos del mundo. Disfruta de paisajes andinos espectaculares, lagunas glaciares y la posibilidad de avistar cóndores andinos. Una experiencia inolvidable para amantes de la naturaleza y la aventura.",
-      "en": "Ascend to José Rivas refuge at 4,864 meters above sea level on Cotopaxi Volcano, one of the highest active volcanoes in the world. Enjoy spectacular Andean landscapes, glacial lagoons, and the possibility of spotting Andean condors. An unforgettable experience for nature and adventure lovers."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/cotopaxi.jpg",
-    "featured": true
-  },
-  {
-    "id": 3,
-    "slug": "banos-adventure",
-    "name": { "es": "Baños - Puerta al Amazonas", "en": "Baños - Gateway to the Amazon" },
-    "city": "Baños",
-    "duration": { "es": "12 horas", "en": "12 hours" },
-    "price": 150,
-    "currency": "USD",
-    "category": "Aventura",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Visita a la Cascada Pailón del Diablo", "Paseo en tarabita", "Tiempo libre en aguas termales", "Guía bilingüe"],
-      "en": ["Private SUV transport", "Visit to Pailón del Diablo Waterfall", "Cable car ride", "Free time at hot springs", "Bilingual guide"]
-    },
-    "description": {
-      "es": "Descubre Baños de Agua Santa, un paraíso de aventura ubicado entre la cordillera andina y la amazonía. Camina hasta la impresionante Cascada Pailón del Diablo, cruza el río Pastaza en tarabita, relájate en aguas termales naturales y disfruta de la famosa Ruta de las Cascadas. Un día lleno de adrenalina y naturaleza.",
-      "en": "Discover Baños de Agua Santa, an adventure paradise located between the Andean mountains and the Amazon. Walk to the impressive Pailón del Diablo Waterfall, cross the Pastaza River by cable car, relax in natural hot springs, and enjoy the famous Waterfall Route. A day full of adrenaline and nature."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/banos.jpg",
-    "featured": true
-  },
-  {
-    "id": 4,
-    "slug": "otavalo-market",
-    "name": { "es": "Mercado Indígena de Otavalo", "en": "Otavalo Indigenous Market" },
-    "city": "Otavalo",
-    "duration": { "es": "9 horas", "en": "9 hours" },
-    "price": 110,
-    "currency": "USD",
-    "category": "Cultural",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Visita al mercado artesanal", "Lago San Pablo", "Cascada de Peguche", "Degustación de comida local"],
-      "en": ["Private SUV transport", "Visit to handicraft market", "San Pablo Lake", "Peguche Waterfall", "Local food tasting"]
-    },
-    "description": {
-      "es": "Sumérgete en la cultura indígena más grande de Sudamérica en el mercado de Otavalo. Admira textiles tradicionales, artesanías únicas y joyería de plata. Visita la Cascada de Peguche sagrada para los indígenas otavaleños y disfruta de vistas del imponente volcán Imbabura y el Lago San Pablo.",
-      "en": "Immerse yourself in the largest indigenous culture in South America at the Otavalo market. Admire traditional textiles, unique handicrafts, and silver jewelry. Visit the sacred Peguche Waterfall for the Otavaleño indigenous people and enjoy views of the imposing Imbabura Volcano and San Pablo Lake."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/otavalo.jpg",
-    "featured": false
-  },
-  {
-    "id": 5,
-    "slug": "quilotoa-lagoon",
-    "name": { "es": "Laguna Mágica de Quilotoa", "en": "Magical Quilotoa Lagoon" },
-    "city": "Quilotoa",
-    "duration": { "es": "10 horas", "en": "10 hours" },
-    "price": 130,
-    "currency": "USD",
-    "category": "Naturaleza",
-    "includes": {
-      "es": ["Transporte privado en SUV 4x4", "Entrada a la laguna", "Caminata al fondo del cráter", "Almuerzo en comunidad indígena", "Guía especializado"],
-      "en": ["Private 4x4 SUV transport", "Lagoon entrance fee", "Hike to crater bottom", "Lunch at indigenous community", "Specialized guide"]
-    },
-    "description": {
-      "es": "Contempla la impresionante Laguna de Quilotoa, un cráter volcánico lleno de agua turquesa ubicado a 3.800 metros de altura. Camina hasta el fondo del cráter, interactúa con comunidades indígenas locales y disfruta de uno de los paisajes más fotografiados de Ecuador. Los colores del agua cambian según la luz del sol.",
-      "en": "Contemplate the stunning Quilotoa Lagoon, a volcanic crater filled with turquoise water located at 3,800 meters altitude. Walk to the bottom of the crater, interact with local indigenous communities, and enjoy one of Ecuador's most photographed landscapes. The water colors change according to sunlight."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/quilotoa.jpg",
-    "featured": true
-  },
-  {
-    "id": 6,
-    "slug": "papallacta-thermas",
-    "name": { "es": "Termas de Papallacta", "en": "Papallacta Hot Springs" },
-    "city": "Papallacta",
-    "duration": { "es": "7 horas", "en": "7 hours" },
-    "price": 95,
-    "currency": "USD",
-    "category": "Relax",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Entrada a termas", "Toalla y locker", "Almuerzo buffet", "Caminata opcional en páramo"],
-      "en": ["Private SUV transport", "Hot springs entrance", "Towel and locker", "Buffet lunch", "Optional páramo hike"]
-    },
-    "description": {
-      "es": "Relájate en las aguas termales naturales de Papallacta, ubicadas en un entorno montañoso espectacular a 3.300 metros de altura. Las aguas provienen de los volcanes cercanos y son ricas en minerales beneficiosos para la salud. Incluye caminata opcional por el ecosistema único del páramo andino.",
-      "en": "Relax in the natural hot springs of Papallacta, located in a spectacular mountain setting at 3,300 meters altitude. The waters come from nearby volcanoes and are rich in health-beneficial minerals. Includes optional hike through the unique Andean páramo ecosystem."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/papallacta.jpg",
-    "featured": false
-  },
-  {
-    "id": 7,
-    "slug": "mindo-cloud-forest",
-    "name": { "es": "Bosque Nublado de Mindo", "en": "Mindo Cloud Forest" },
-    "city": "Mindo",
-    "duration": { "es": "10 horas", "en": "10 hours" },
-    "price": 115,
-    "currency": "USD",
-    "category": "Naturaleza",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Caminata guiada", "Visita a mariposario", "Cascadas de Mindo", "Degustación de chocolate artesanal"],
-      "en": ["Private SUV transport", "Guided hike", "Butterfly farm visit", "Mindo Waterfalls", "Artisanal chocolate tasting"]
-    },
-    "description": {
-      "es": "Explora Mindo, uno de los mejores destinos para observación de aves del mundo con más de 500 especies. Camina por el bosque nublado, visita un mariposario con especies exóticas, nada en cascadas cristalinas y aprende sobre el proceso del chocolate desde el árbol hasta la barra en una finca local.",
-      "en": "Explore Mindo, one of the world's best birdwatching destinations with over 500 species. Walk through the cloud forest, visit a butterfly farm with exotic species, swim in crystal-clear waterfalls, and learn about the chocolate process from tree to bar at a local farm."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/mindo.jpg",
-    "featured": false
-  },
-  {
-    "id": 8,
-    "slug": "teleferico-quito",
-    "name": { "es": "Teleférico y Centro Histórico", "en": "Cable Car & Historic Center" },
-    "city": "Quito",
-    "duration": { "es": "6 horas", "en": "6 hours" },
-    "price": 75,
-    "currency": "USD",
-    "category": "Cultural",
-    "includes": {
-      "es": ["Transporte privado en SUV", "Ticket teleférico", "Tour centro histórico", "Guía bilingüe", " Café en Cruz Loma"],
-      "en": ["Private SUV transport", "Cable car ticket", "Historic center tour", "Bilingual guide", "Coffee at Cruz Loma"]
-    },
-    "description": {
-      "es": "Sube en el teleférico más alto del mundo hasta Cruz Loma a 4.100 metros con vistas espectaculares de Quito y los volcanes circundantes. Combina esta experiencia con un recorrido por el centro histórico visitando sus plazas coloniales, iglesias y museos más importantes.",
-      "en": "Ride the world's highest cable car to Cruz Loma at 4,100 meters with spectacular views of Quito and surrounding volcanoes. Combine this experience with a tour of the historic center visiting its most important colonial plazas, churches, and museums."
-    },
-    "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
-    },
-    "image": "/images/teleferico.jpg",
-    "featured": false
-  },
-  {
-    "id": 9,
     "slug": "mitad-del-mundo",
     "name": { "es": "Tour Mitad del Mundo", "en": "Middle of the World Tour" },
     "city": "Quito",
@@ -288,5 +120,211 @@
     },
     "image": "/images/quito.jpg",
     "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "cotopaxi-volcano",
+    "name": { "es": "Aventura Cotopaxi", "en": "Cotopaxi Volcano Adventure" },
+    "city": "Cotopaxi",
+    "duration": { "es": "10 horas", "en": "10 hours" },
+    "price": 120,
+    "currency": "USD",
+    "category": "Aventura",
+    "includes": {
+      "es": ["Transporte privado en SUV 4x4", "Guía experimentado", "Entrada al Parque Nacional", "Equipo de senderismo", "Almuerzo típico"],
+      "en": ["Private 4x4 SUV transport", "Experienced guide", "National Park entrance fee", "Hiking equipment", "Typical lunch"]
+    },
+    "description": {
+      "es": "Asciende hasta el refugio José Rivas a 4.864 metros sobre el nivel del mar en el volcán Cotopaxi, uno de los volcanes activos más altos del mundo. Disfruta de paisajes andinos espectaculares, lagunas glaciares y la posibilidad de avistar cóndores andinos. Una experiencia inolvidable para amantes de la naturaleza y la aventura.",
+      "en": "Ascend to José Rivas refuge at 4,864 meters above sea level on Cotopaxi Volcano, one of the highest active volcanoes in the world. Enjoy spectacular Andean landscapes, glacial lagoons, and the possibility of spotting Andean condors. An unforgettable experience for nature and adventure lovers."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/cotopaxi.jpg",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "slug": "banos-adventure",
+    "name": { "es": "Baños - Puerta al Amazonas", "en": "Baños - Gateway to the Amazon" },
+    "city": "Baños",
+    "duration": { "es": "12 horas", "en": "12 hours" },
+    "price": 150,
+    "currency": "USD",
+    "category": "Aventura",
+    "includes": {
+      "es": ["Transporte privado en SUV", "Visita a la Cascada Pailón del Diablo", "Paseo en tarabita", "Tiempo libre en aguas termales", "Guía bilingüe"],
+      "en": ["Private SUV transport", "Visit to Pailón del Diablo Waterfall", "Cable car ride", "Free time at hot springs", "Bilingual guide"]
+    },
+    "description": {
+      "es": "Descubre Baños de Agua Santa, un paraíso de aventura ubicado entre la cordillera andina y la amazonía. Camina hasta la impresionante Cascada Pailón del Diablo, cruza el río Pastaza en tarabita, relájate en aguas termales naturales y disfruta de la famosa Ruta de las Cascadas. Un día lleno de adrenalina y naturaleza.",
+      "en": "Discover Baños de Agua Santa, an adventure paradise located between the Andean mountains and the Amazon. Walk to the impressive Pailón del Diablo Waterfall, cross the Pastaza River by cable car, relax in natural hot springs, and enjoy the famous Waterfall Route. A day full of adrenaline and nature."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/banos.jpg",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "otavalo-market",
+    "name": { "es": "Tour Otavalo y Cascadas — Día Completo", "en": "Otavalo & Falls Tour — Full Day" },
+    "city": "Otavalo",
+    "duration": { "es": "Día completo desde Quito", "en": "Full day trip from Quito" },
+    "price": 190,
+    "currency": "USD",
+    "category": "Cultural",
+    "includes": {
+      "es": [
+        "Salida desde Quito",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Café con biscochos tradicionales en Miralago",
+        "Feria del Poncho de Otavalo",
+        "Cascada de Peguche",
+        "Cotacachi — pueblo del cuero",
+        "Laguna de Cuicocha"
+      ],
+      "en": [
+        "Departure from Quito",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Coffee with traditional biscuits at Miralago",
+        "Otavalo Poncho Fair market",
+        "Peguche Waterfall",
+        "Cotacachi — leather town",
+        "Cuicocha Lagoon"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Salida desde Quito",
+        "Mirador Miralago — vistas del Volcán Imbabura y Lago San Pablo, café con biscochos tradicionales",
+        "Feria del Poncho en Otavalo — el mayor mercado artesanal indígena de América del Sur",
+        "Cascada de Peguche — lugar sagrado para el pueblo Otavaleño",
+        "Cotacachi — pueblo del cuero, tiendas y artesanías en cuero",
+        "Laguna de Cuicocha — cráter volcánico con dos islas en su interior",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Departure from Quito",
+        "Miralago Viewpoint — views of Imbabura Volcano and Lake San Pablo, coffee with traditional biscuits",
+        "Poncho Fair in Otavalo — the largest indigenous artisan market in South America",
+        "Peguche Waterfall — sacred site for the Otavaleño people",
+        "Cotacachi — leather town, shops and handcrafted leather goods",
+        "Cuicocha Lagoon — volcanic crater lake with two islands within",
+        "Return to Quito"
+      ]
+    },
+    "description": {
+      "es": "Embárcate en un día completo de cultura, naturaleza y gastronomía desde Quito. La primera parada es el Mirador Miralago, donde disfrutamos de vistas impresionantes del Volcán Imbabura y el Lago San Pablo, acompañadas de café y biscochos tradicionales. Continuamos a la famosa Feria del Poncho de Otavalo, el mayor mercado artesanal indígena de América del Sur, repleto de textiles, artesanías y joyería. Luego visitamos la Cascada de Peguche, lugar sagrado para el pueblo Otavaleño, y el pintoresco pueblo de Cotacachi, famoso por sus artículos de cuero. Cerramos el día con la majestuosa Laguna de Cuicocha, un cráter volcánico con dos islas en su interior. Un día lleno de maravillas andinas.",
+      "en": "Embark on a full day of culture, nature, and gastronomy from Quito. Our first stop is the Miralago Viewpoint, where we enjoy stunning views of Imbabura Volcano and Lake San Pablo, accompanied by coffee and traditional biscuits. We continue to the famous Otavalo Poncho Fair, the largest indigenous artisan market in South America, full of textiles, crafts, and jewelry. We then visit Peguche Waterfall, a sacred site for the Otavaleño people, and the charming town of Cotacachi, renowned for its handcrafted leather goods. We close the day at the majestic Cuicocha Lagoon, a volcanic crater lake with two islands within. A day filled with Andean wonders."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/otavalo.jpg",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "slug": "quilotoa-lagoon",
+    "name": { "es": "Laguna Mágica de Quilotoa", "en": "Magical Quilotoa Lagoon" },
+    "city": "Quilotoa",
+    "duration": { "es": "10 horas", "en": "10 hours" },
+    "price": 130,
+    "currency": "USD",
+    "category": "Naturaleza",
+    "includes": {
+      "es": ["Transporte privado en SUV 4x4", "Entrada a la laguna", "Caminata al fondo del cráter", "Almuerzo en comunidad indígena", "Guía especializado"],
+      "en": ["Private 4x4 SUV transport", "Lagoon entrance fee", "Hike to crater bottom", "Lunch at indigenous community", "Specialized guide"]
+    },
+    "description": {
+      "es": "Contempla la impresionante Laguna de Quilotoa, un cráter volcánico lleno de agua turquesa ubicado a 3.800 metros de altura. Camina hasta el fondo del cráter, interactúa con comunidades indígenas locales y disfruta de uno de los paisajes más fotografiados de Ecuador. Los colores del agua cambian según la luz del sol.",
+      "en": "Contemplate the stunning Quilotoa Lagoon, a volcanic crater filled with turquoise water located at 3,800 meters altitude. Walk to the bottom of the crater, interact with local indigenous communities, and enjoy one of Ecuador's most photographed landscapes. The water colors change according to sunlight."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/quilotoa.jpg",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "slug": "papallacta-thermas",
+    "name": { "es": "Termas de Papallacta", "en": "Papallacta Hot Springs" },
+    "city": "Papallacta",
+    "duration": { "es": "7 horas", "en": "7 hours" },
+    "price": 95,
+    "currency": "USD",
+    "category": "Relax",
+    "includes": {
+      "es": ["Transporte privado en SUV", "Entrada a termas", "Toalla y locker", "Almuerzo buffet", "Caminata opcional en páramo"],
+      "en": ["Private SUV transport", "Hot springs entrance", "Towel and locker", "Buffet lunch", "Optional páramo hike"]
+    },
+    "description": {
+      "es": "Relájate en las aguas termales naturales de Papallacta, ubicadas en un entorno montañoso espectacular a 3.300 metros de altura. Las aguas provienen de los volcanes cercanos y son ricas en minerales beneficiosos para la salud. Incluye caminata opcional por el ecosistema único del páramo andino.",
+      "en": "Relax in the natural hot springs of Papallacta, located in a spectacular mountain setting at 3,300 meters altitude. The waters come from nearby volcanoes and are rich in health-beneficial minerals. Includes optional hike through the unique Andean páramo ecosystem."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/papallacta.jpg",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "mindo-cloud-forest",
+    "name": { "es": "Bosque Nublado de Mindo", "en": "Mindo Cloud Forest" },
+    "city": "Mindo",
+    "duration": { "es": "10 horas", "en": "10 hours" },
+    "price": 115,
+    "currency": "USD",
+    "category": "Naturaleza",
+    "includes": {
+      "es": ["Transporte privado en SUV", "Caminata guiada", "Visita a mariposario", "Cascadas de Mindo", "Degustación de chocolate artesanal"],
+      "en": ["Private SUV transport", "Guided hike", "Butterfly farm visit", "Mindo Waterfalls", "Artisanal chocolate tasting"]
+    },
+    "description": {
+      "es": "Explora Mindo, uno de los mejores destinos para observación de aves del mundo con más de 500 especies. Camina por el bosque nublado, visita un mariposario con especies exóticas, nada en cascadas cristalinas y aprende sobre el proceso del chocolate desde el árbol hasta la barra en una finca local.",
+      "en": "Explore Mindo, one of the world's best birdwatching destinations with over 500 species. Walk through the cloud forest, visit a butterfly farm with exotic species, swim in crystal-clear waterfalls, and learn about the chocolate process from tree to bar at a local farm."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/mindo.jpg",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "teleferico-quito",
+    "name": { "es": "Teleférico y Centro Histórico", "en": "Cable Car & Historic Center" },
+    "city": "Quito",
+    "duration": { "es": "6 horas", "en": "6 hours" },
+    "price": 75,
+    "currency": "USD",
+    "category": "Cultural",
+    "includes": {
+      "es": ["Transporte privado en SUV", "Ticket teleférico", "Tour centro histórico", "Guía bilingüe", " Café en Cruz Loma"],
+      "en": ["Private SUV transport", "Cable car ticket", "Historic center tour", "Bilingual guide", "Coffee at Cruz Loma"]
+    },
+    "description": {
+      "es": "Sube en el teleférico más alto del mundo hasta Cruz Loma a 4.100 metros con vistas espectaculares de Quito y los volcanes circundantes. Combina esta experiencia con un recorrido por el centro histórico visitando sus plazas coloniales, iglesias y museos más importantes.",
+      "en": "Ride the world's highest cable car to Cruz Loma at 4,100 meters with spectacular views of Quito and surrounding volcanoes. Combine this experience with a tour of the historic center visiting its most important colonial plazas, churches, and museums."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/teleferico.jpg",
+    "featured": false
   }
 ]
