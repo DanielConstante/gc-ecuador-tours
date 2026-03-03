@@ -236,5 +236,57 @@
     },
     "image": "/images/teleferico.jpg",
     "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "mitad-del-mundo",
+    "name": { "es": "Tour Mitad del Mundo", "en": "Middle of the World Tour" },
+    "city": "Quito",
+    "duration": { "es": "Aprox. 4 horas", "en": "Approx. 4 hours" },
+    "price": 80,
+    "currency": "USD",
+    "category": "Cultural",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Visita al Volcán Pululahua",
+        "Visita al Monumento Mitad del Mundo (mirador y tiendas artesanales)"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Pululahua Volcano visit",
+        "Middle of the World Monument visit (viewpoint and artisan shops)"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel en Quito",
+        "Volcán Pululahua — reserva geobotánica con vistas al cráter",
+        "Museo Intiñán — tour guiado en inglés de 1 hora (entrada: $5,00 por persona, no incluida)",
+        "Monumento Mitad del Mundo — mirador panorámico, tiendas de artesanías ecuatorianas y restaurantes locales",
+        "Regreso a su hotel en Quito"
+      ],
+      "en": [
+        "Hotel pickup in Quito",
+        "Pululahua Volcano — geobotanical reserve with crater views",
+        "Intiñan Museum — 1-hour guided English tour (entrance fee: $5.00 per person, not included)",
+        "Middle of the World Monument — panoramic viewpoint, Ecuadorian artisan shops, and local restaurants",
+        "Return to your hotel in Quito"
+      ]
+    },
+    "description": {
+      "es": "Vive la experiencia única de pararte exactamente sobre la línea ecuatorial, a solo 30 minutos de Quito. Comenzamos con la visita al impresionante Volcán Pululahua y su reserva geobotánica. Luego nos adentramos en el fascinante Museo Intiñán, donde podrás comprobar en persona los fenómenos físicos del ecuador en un tour guiado en inglés. Finalmente, recorremos el icónico Monumento Mitad del Mundo: su mirador panorámico, tiendas de artesanías ecuatorianas y auténticos restaurantes locales. Un tour corto pero lleno de historia, ciencia y cultura.",
+      "en": "Experience the unique thrill of standing right on the equatorial line, just 30 minutes from Quito. We start with a visit to the impressive Pululahua Volcano and its geobotanical reserve. Next, we explore the fascinating Intiñan Museum, where you can witness the physical phenomena of the equator firsthand on a guided English tour. We then visit the iconic Middle of the World Monument with its panoramic viewpoint, Ecuadorian artisan shops, and authentic local restaurants. A shorter but rich tour full of history, science, and culture."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. La entrada al Museo Intiñán ($5,00 por persona) no está incluida en el precio del tour.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. The Intiñan Museum entrance fee ($5.00 per person) is not included in the tour price."
+    },
+    "image": "/images/quito.jpg",
+    "featured": true
   }
 ]
