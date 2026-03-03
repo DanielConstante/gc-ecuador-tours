@@ -11,7 +11,7 @@ interface TourCardProps {
 
 export function TourCard({ tour, index = 0 }: TourCardProps) {
   const { i18n, t } = useTranslation();
-  const lang = i18n.language as 'es' | 'en';
+  const lang = (i18n.language.startsWith('es') ? 'es' : 'en') as 'es' | 'en';
 
   return (
     <motion.div
@@ -39,8 +39,8 @@ export function TourCard({ tour, index = 0 }: TourCardProps) {
             </div>
             {/* Price Badge */}
             <div className="absolute bottom-3 right-3 z-20">
-              <div className="glass-card-strong px-3 py-1.5 rounded-lg">
-                <span className="text-lg font-bold text-white">
+              <div className="bg-[#0A3D62]/85 backdrop-blur-sm px-3 py-1.5 rounded-lg">
+                <span className="text-lg font-bold text-[#F5A623]">
                   ${tour.price}
                 </span>
                 <span className="text-xs text-white/80 ml-1">

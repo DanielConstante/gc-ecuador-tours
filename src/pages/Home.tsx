@@ -2,27 +2,34 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useDocumentHead } from '@/hooks/useDocumentHead';
-import { 
-  MapPin, 
-  Clock, 
-  Car, 
-  Compass, 
-  Plane, 
+import {
+  MapPin,
+  Clock,
+  Car,
+  Compass,
+  Plane,
   Mountain,
   Users,
   Calendar,
   Award,
   Shield,
   ArrowRight,
-  MessageCircle
+  MessageCircle,
+  Utensils,
+  Palette,
+  Building2,
+  Eye,
+  Coffee,
+  Star
 } from 'lucide-react';
 import { useTours } from '@/hooks/useTours';
 import { TourCard } from '@/components/TourCard';
 
 export function Home() {
   const { t, i18n } = useTranslation();
-  const { featuredTours } = useTours();
-  const lang = i18n.language as 'es' | 'en';
+  const { tours } = useTours();
+  const featuredTours = tours.slice(0, 6);
+  const lang = (i18n.language.startsWith('es') ? 'es' : 'en') as 'es' | 'en';
 
   const services = [
     {
@@ -70,15 +77,102 @@ export function Home() {
     },
   ];
 
+  const recommendations = [
+    {
+      id: 1,
+      icon: Utensils,
+      color: 'from-orange-500 to-red-500',
+      badgeColor: 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400',
+      type: { es: 'Restaurante', en: 'Restaurant' },
+      name: 'Vista Hermosa',
+      description: {
+        es: 'Restaurante en azotea con vistas panorámicas al Centro Histórico. Cocina ecuatoriana e internacional en un ambiente sofisticado.',
+        en: 'Rooftop restaurant with panoramic views of the Historic Center. Ecuadorian and international cuisine in a sophisticated setting.',
+      },
+      tip: { es: 'Reserva con anticipación', en: 'Book in advance' },
+      image: '/images/vista-hermosa.jpg',
+    },
+    {
+      id: 2,
+      icon: Palette,
+      color: 'from-purple-500 to-indigo-600',
+      badgeColor: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
+      type: { es: 'Museo', en: 'Museum' },
+      name: 'Museo Guayasamín',
+      description: {
+        es: 'Hogar del arte de Oswaldo Guayasamín, el pintor más célebre de Ecuador. La Capilla del Hombre es obra imprescindible.',
+        en: "Home of Oswaldo Guayasamín's art, Ecuador's most celebrated painter. La Capilla del Hombre is a must-see.",
+      },
+      tip: { es: 'Incluye La Capilla del Hombre', en: 'Includes La Capilla del Hombre' },
+      image: '/images/guayasamin.webp',
+    },
+    {
+      id: 3,
+      icon: Building2,
+      color: 'from-slate-600 to-slate-800',
+      badgeColor: 'bg-slate-100 text-slate-700 dark:bg-slate-700/40 dark:text-slate-300',
+      type: { es: 'Monumento', en: 'Landmark' },
+      name: 'Basílica del Voto Nacional',
+      description: {
+        es: 'La iglesia neogótica más grande de América Latina. Sube a sus torres para vistas impresionantes de toda la ciudad.',
+        en: 'The largest neo-Gothic church in Latin America. Climb its towers for breathtaking views across the entire city.',
+      },
+      tip: { es: 'Sube a las torres', en: 'Climb the towers' },
+      image: '/images/basilica.jpg',
+    },
+    {
+      id: 4,
+      icon: Eye,
+      color: 'from-sky-500 to-blue-600',
+      badgeColor: 'bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-400',
+      type: { es: 'Mirador', en: 'Viewpoint' },
+      name: 'El Panecillo',
+      description: {
+        es: 'Colina icónica coronada por la Virgen de Quito. Ofrece vistas de 360° sobre la ciudad y los volcanes andinos.',
+        en: 'Iconic hill crowned by the Virgin of Quito statue. Offers 360° views over the city and the Andean volcanoes.',
+      },
+      tip: { es: 'Visita en taxi, no a pie', en: 'Take a taxi, do not walk' },
+      image: '/images/panecillo.jfif',
+    },
+    {
+      id: 5,
+      icon: MapPin,
+      color: 'from-amber-500 to-yellow-600',
+      badgeColor: 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+      type: { es: 'Barrio Histórico', en: 'Historic District' },
+      name: 'La Ronda',
+      description: {
+        es: 'La calle más pintoresca del Centro Histórico. Artesanías, música en vivo y gastronomía tradicional ecuatoriana.',
+        en: 'The most picturesque street in the Historic Center. Handicrafts, live music and traditional Ecuadorian gastronomy.',
+      },
+      tip: { es: 'Mejor de noche', en: 'Best in the evening' },
+      image: '/images/la-ronda.jpg',
+    },
+    {
+      id: 6,
+      icon: Coffee,
+      color: 'from-emerald-500 to-teal-600',
+      badgeColor: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400',
+      type: { es: 'Café & Bar', en: 'Café & Bar' },
+      name: 'Café Mosaico',
+      description: {
+        es: 'Bar bohemio con terraza y vistas panorámicas de Quito. El mejor lugar para disfrutar el atardecer sobre la ciudad.',
+        en: 'Bohemian bar with a terrace and panoramic views of Quito. The best spot to enjoy the sunset over the city.',
+      },
+      tip: { es: 'Perfecto al atardecer', en: 'Perfect at sunset' },
+      image: '/images/cafe-mosaico.jpg',
+    },
+  ];
+
   useDocumentHead({
     title: lang === 'es'
-      ? 'Ecuador Tours & Transport | Tours Privados en Ecuador'
-      : 'Ecuador Tours & Transport | Private Tours in Ecuador',
+      ? 'GC Ecuador Tours & Transport | Tours Privados en Ecuador'
+      : 'GC Ecuador Tours & Transport | Private Tours in Ecuador',
     meta: [
       { name: 'description', content: lang === 'es'
         ? 'Descubre Ecuador con tours privados y transporte personalizado. SUV de 7 asientos, guía bilingüe, experiencias únicas en Quito, Cotopaxi, Baños y más.'
         : 'Discover Ecuador with private tours and personalized transport. 7-seat SUV, bilingual guide, unique experiences in Quito, Cotopaxi, Baños and more.' },
-      { property: 'og:title', content: 'Ecuador Tours & Transport' },
+      { property: 'og:title', content: 'GC Ecuador Tours & Transport' },
       { property: 'og:description', content: lang === 'es'
         ? 'Tours privados y transporte personalizado en Ecuador'
         : 'Private tours and personalized transport in Ecuador' },
@@ -203,6 +297,79 @@ export function Home() {
           </div>
         </section>
 
+        {/* Recommended in Quito Section */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-transparent via-[#F5A623]/5 dark:via-[#F5A623]/5 to-transparent">
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="text-center mb-16"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F5A623]/10 mb-4">
+                <Star className="w-4 h-4 text-[#F5A623]" />
+                <span className="text-sm font-medium text-[#F5A623]">Quito</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-4">
+                {t('recommendations.title')}
+              </h2>
+              <p className="text-lg text-[#1E272E]/70 dark:text-[#E0E0E0]/70 max-w-2xl mx-auto">
+                {t('recommendations.subtitle')}
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {recommendations.map((rec, index) => (
+                <motion.div
+                  key={rec.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="glass-card rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+                >
+                  {/* Image */}
+                  <div className="relative h-44 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0A3D62]/60 to-transparent z-10" />
+                    <img
+                      src={rec.image}
+                      alt={rec.name}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      loading="lazy"
+                    />
+                    {/* Type Badge */}
+                    <div className="absolute top-3 left-3 z-20">
+                      <span className={`px-3 py-1 text-xs font-medium rounded-full shadow-lg ${rec.badgeColor}`}>
+                        {rec.type[lang]}
+                      </span>
+                    </div>
+                    {/* Icon */}
+                    <div className="absolute bottom-3 right-3 z-20">
+                      <div className={`w-9 h-9 rounded-lg bg-gradient-to-br ${rec.color} flex items-center justify-center shadow-md`}>
+                        <rec.icon className="w-5 h-5 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  {/* Content */}
+                  <div className="p-5">
+                    <h3 className="text-base font-semibold text-[#0A3D62] dark:text-[#F4F9FF] mb-2">
+                      {rec.name}
+                    </h3>
+                    <p className="text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70 mb-4 leading-relaxed">
+                      {rec.description[lang]}
+                    </p>
+                    <div className="flex items-center gap-2 text-xs text-[#F5A623] font-medium">
+                      <Star className="w-3.5 h-3.5 fill-[#F5A623]" />
+                      <span>{rec.tip[lang]}</span>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Services Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-transparent via-[#0A3D62]/5 dark:via-[#74B9FF]/5 to-transparent">
           <div className="max-w-7xl mx-auto">
@@ -310,7 +477,7 @@ export function Home() {
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <a
-                  href="https://wa.me/593999999999"
+                  href={`https://wa.me/593984023098?text=${encodeURIComponent(lang === 'es' ? 'Hola! Me gustaría información sobre sus tours en Ecuador.' : 'Hello! I would like information about your tours in Ecuador.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-8 py-4 bg-[#25D366] hover:bg-[#128C7E] text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg shadow-[#25D366]/30"
@@ -320,7 +487,7 @@ export function Home() {
                 </a>
 
                 <a
-                  href="mailto:info@ecuadortours.com"
+                  href="mailto:galoconstante@gmail.com"
                   className="flex items-center gap-3 px-8 py-4 glass-card text-[#0A3D62] dark:text-[#F4F9FF] font-semibold rounded-xl hover:bg-[#0A3D62]/10 dark:hover:bg-[#74B9FF]/10 transition-all duration-300"
                 >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -342,7 +509,7 @@ export function Home() {
 
         {/* Floating WhatsApp Button */}
         <motion.a
-          href="https://wa.me/593999999999"
+          href={`https://wa.me/593984023098?text=${encodeURIComponent(lang === 'es' ? 'Hola! Me gustaría información sobre sus tours en Ecuador.' : 'Hello! I would like information about your tours in Ecuador.')}`}
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0 }}

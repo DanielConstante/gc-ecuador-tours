@@ -17,11 +17,11 @@ import { Slider } from '@/components/ui/slider';
 export function Tours() {
   const { t, i18n } = useTranslation();
   const { tours, cities, categories } = useTours();
-  const lang = i18n.language as 'es' | 'en';
+  const lang = (i18n.language.startsWith('es') ? 'es' : 'en') as 'es' | 'en';
 
   const [selectedCity, setSelectedCity] = useState<string>('all');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [priceRange, setPriceRange] = useState<number[]>([0, 200]);
+  const [priceRange, setPriceRange] = useState<number[]>([0, 10000]);
   const [showFilters, setShowFilters] = useState(false);
 
   const maxPrice = useMemo(() => {
@@ -47,8 +47,8 @@ export function Tours() {
 
   useDocumentHead({
     title: lang === 'es'
-      ? 'Nuestros Tours | Ecuador Tours & Transport'
-      : 'Our Tours | Ecuador Tours & Transport',
+      ? 'Nuestros Tours | GC Ecuador Tours & Transport'
+      : 'Our Tours | GC Ecuador Tours & Transport',
     meta: [
       { name: 'description', content: lang === 'es'
         ? 'Descubre todos nuestros tours privados en Ecuador. Quito, Cotopaxi, Baños, Otavalo y más destinos increíbles con transporte personalizado.'

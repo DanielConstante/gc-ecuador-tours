@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { toast } from 'sonner';
 import { useDocumentHead } from '@/hooks/useDocumentHead';
 import { motion } from 'framer-motion';
 import {
@@ -32,7 +34,9 @@ export function TourDetails() {
   const { slug } = useParams<{ slug: string }>();
   const { t, i18n } = useTranslation();
   const { getTourBySlug, getRelatedTours } = useTours();
-  const lang = i18n.language as 'es' | 'en';
+  const lang = (i18n.language.startsWith('es') ? 'es' : 'en') as 'es' | 'en';
+
+  const [pdfDialogOpen, setPdfDialogOpen] = useState(false);
 
   const tour = slug ? getTourBySlug(slug) : undefined;
   const relatedTours = slug ? getRelatedTours(slug, 3) : [];
@@ -52,20 +56,20 @@ export function TourDetails() {
       duration: t('tourDetails.duration'),
       price: t('tourDetails.price'),
       category: t('tourDetails.category'),
+      itinerary: t('pdf.itinerary'),
+      note: t('pdf.note'),
     };
 
-    await generateTourPDF({
-      tour,
-      language: lang,
-      translations,
-    });
+    await generateTourPDF({ tour, language: lang, translations });
+    setPdfDialogOpen(false);
+    toast.success(t('pdf.downloadSuccess'));
   };
 
   const whatsappMessage = lang === 'es'
     ? `Hola! Me interesa el tour: ${tour.name.es}`
     : `Hello! I'm interested in the tour: ${tour.name.en}`;
 
-  const whatsappUrl = `https://wa.me/593999999999?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/593984023098?text=${encodeURIComponent(whatsappMessage)}`;
 
   // JSON-LD structured data for SEO
   const tourSchema = {
@@ -94,11 +98,11 @@ export function TourDetails() {
   };
 
   useDocumentHead({
-    title: `${tour.name[lang]} | Ecuador Tours & Transport`,
+    title: `${tour.name[lang]} | GC Ecuador Tours & Transport`,
     meta: [
-      { name: 'description', content: tour.description[lang].substring(0, 160) },
+      { name: 'description', content: (tour.description[lang] ?? '').substring(0, 160) },
       { property: 'og:title', content: tour.name[lang] },
-      { property: 'og:description', content: tour.description[lang].substring(0, 200) },
+      { property: 'og:description', content: (tour.description[lang] ?? '').substring(0, 200) },
       { property: 'og:type', content: 'article' },
       { property: 'og:url', content: `https://ecuadortours.com/tours/${tour.slug}` },
       { property: 'og:image', content: `https://ecuadortours.com${tour.image}` },
@@ -190,6 +194,9 @@ export function TourDetails() {
                       </p>
                       <p className="font-semibold text-[#F5A623]">
                         ${tour.price} {tour.currency}
+                      </p>
+                      <p className="text-xs text-[#1E272E]/50 dark:text-[#E0E0E0]/50">
+                        {t('toursPage.perPerson')}
                       </p>
                     </div>
 
@@ -355,7 +362,7 @@ export function TourDetails() {
                         : 'Download all tour information in PDF format.'}
                     </p>
 
-                    <Dialog>
+                    <Dialog open={pdfDialogOpen} onOpenChange={setPdfDialogOpen}>
                       <DialogTrigger asChild>
                         <Button
                           variant="outline"

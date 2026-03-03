@@ -4,8 +4,15 @@ import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Facebook, MessageCircle } from 'lucide-react';
 
 export function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = (i18n.language.startsWith('es') ? 'es' : 'en') as 'es' | 'en';
   const currentYear = new Date().getFullYear();
+
+  const waMessage = encodeURIComponent(
+    lang === 'es'
+      ? 'Hola! Me gustaría información sobre sus tours en Ecuador.'
+      : 'Hello! I would like information about your tours in Ecuador.'
+  );
 
   const quickLinks = [
     { to: '/', label: t('nav.home') },
@@ -16,13 +23,13 @@ export function Footer() {
   const socialLinks = [
     {
       icon: Facebook,
-      href: 'https://facebook.com/ecuadortours',
+      href: 'https://www.facebook.com/galopconstanteg',
       label: 'Facebook',
       hoverColor: 'hover:text-[#1877F2]',
     },
     {
       icon: MessageCircle,
-      href: 'https://wa.me/593999999999',
+      href: `https://wa.me/593984023098?text=${waMessage}`,
       label: 'WhatsApp',
       hoverColor: 'hover:text-[#25D366]',
     },
@@ -42,7 +49,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-[#0A3D62] dark:text-[#F4F9FF]">
-                    Ecuador Tours
+                   GC Ecuador Tours
                   </h3>
                   <p className="text-sm text-[#1B6CA8] dark:text-[#74B9FF]">
                     & Transport
@@ -83,13 +90,23 @@ export function Footer() {
                   <MapPin className="w-4 h-4 text-[#1B6CA8] dark:text-[#74B9FF]" />
                   {t('contact.locationValue')}
                 </li>
-                <li className="flex items-center gap-3 text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70">
-                  <Phone className="w-4 h-4 text-[#1B6CA8] dark:text-[#74B9FF]" />
-                  +593 99 999 9999
+                <li className="flex items-center gap-3 text-sm">
+                  <Phone className="w-4 h-4 text-[#1B6CA8] dark:text-[#74B9FF] flex-shrink-0" />
+                  <a
+                    href="tel:+593984023098"
+                    className="text-[#1E272E]/70 dark:text-[#E0E0E0]/70 hover:text-[#0A3D62] dark:hover:text-[#74B9FF] transition-colors"
+                  >
+                    +593 98 402 3098
+                  </a>
                 </li>
-                <li className="flex items-center gap-3 text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70">
-                  <Mail className="w-4 h-4 text-[#1B6CA8] dark:text-[#74B9FF]" />
-                  info@ecuadortours.com
+                <li className="flex items-center gap-3 text-sm">
+                  <Mail className="w-4 h-4 text-[#1B6CA8] dark:text-[#74B9FF] flex-shrink-0" />
+                  <a
+                    href="mailto:galoconstante@gmail.com"
+                    className="text-[#1E272E]/70 dark:text-[#E0E0E0]/70 hover:text-[#0A3D62] dark:hover:text-[#74B9FF] transition-colors"
+                  >
+                    galoconstante@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
@@ -123,7 +140,7 @@ export function Footer() {
 
               {/* Copyright */}
               <p className="text-sm text-[#1E272E]/50 dark:text-[#E0E0E0]/50 text-center">
-                © {currentYear} Ecuador Tours & Transport. {t('footer.rights')}.
+                © {currentYear} GC Ecuador Tours & Transport. {t('footer.rights')}.
               </p>
             </div>
           </div>

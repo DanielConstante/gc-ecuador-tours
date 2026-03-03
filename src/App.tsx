@@ -1,7 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { ScrollToTop } from '@/components/ScrollToTop';
 import { Home } from '@/pages/Home';
 import { Tours } from '@/pages/Tours';
 import { TourDetails } from '@/pages/TourDetails';
@@ -11,7 +13,9 @@ import './App.css';
 function App() {
   return (
     <ThemeProvider>
-        <BrowserRouter>
+        <Toaster richColors position="top-center" />
+        <HashRouter>
+          <ScrollToTop />
           <div className="min-h-screen bg-[#F4F9FF] dark:bg-[#0F172A] transition-colors duration-300">
             <Navbar />
             <Routes>
@@ -21,7 +25,7 @@ function App() {
             </Routes>
             <Footer />
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
   );
 }

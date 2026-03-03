@@ -6,58 +6,58 @@
   },
   "hero": {
     "title": "Descubre la Magia del Ecuador",
-    "subtitle": "Tours privados y transporte personalizado en SUV de 7 asientos. Vive experiencias únicas con atención exclusiva.",
+    "subtitle": "Tours privados y transporte personalizado en mi SUV de 7 asientos. Vive experiencias únicas con atención exclusiva de uno a uno.",
     "ctaTours": "Ver Tours",
-    "ctaContact": "Contactar"
+    "ctaContact": "Contáctame"
   },
   "featured": {
-    "title": "Tours Destacados",
-    "subtitle": "Experiencias seleccionadas para descubrir lo mejor de Ecuador",
+    "title": "Mis Tours",
+    "subtitle": "Experiencias que guío personalmente para mostrarte lo mejor de Ecuador",
     "viewAll": "Ver todos los tours"
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Transporte y tours diseñados para tu comodidad",
+    "title": "Lo Que Ofrezco",
+    "subtitle": "Transporte y tours privados que diseño exclusivamente para ti",
     "privateTransport": {
       "title": "Transporte Privado",
-      "description": "SUV de 7 asientos con conductor profesional bilingüe"
+      "description": "Manejo mi propio SUV de 7 asientos — soy tu guía bilingüe personal al volante"
     },
     "personalizedTours": {
       "title": "Tours Personalizados",
-      "description": "Itinerarios flexibles adaptados a tus intereses y tiempo"
+      "description": "Creo itinerarios a medida según tus intereses, tu ritmo y tu horario"
     },
     "airportTransfers": {
       "title": "Traslados Aeropuerto",
-      "description": "Servicio puntual de recojo y traslado al aeropuerto"
+      "description": "Te recojo y llevo al aeropuerto personalmente, siempre puntual"
     },
     "adventure": {
       "title": "Aventura 4x4",
-      "description": "Excursiones off-road a los destinos más remotos"
+      "description": "Te llevo off-road a los destinos más remotos y espectaculares del Ecuador"
     }
   },
   "whyChooseUs": {
-    "title": "¿Por Qué Elegirnos?",
-    "subtitle": "Un operador local, comprometido con tu experiencia",
+    "title": "¿Por Qué Elegirme?",
+    "subtitle": "Tu guía local, completamente dedicado a tu experiencia",
     "personalized": {
-      "title": "Atención Personalizada",
-      "description": "Soy un operador independiente dedicado exclusivamente a tu grupo, brindando atención 100% personalizada."
+      "title": "Atención Exclusiva",
+      "description": "Soy un guía independiente dedicado únicamente a tu grupo — sin otros clientes, sin distracciones."
     },
     "flexible": {
       "title": "Horarios Flexibles",
-      "description": "Adaptamos los horarios y rutas según tus preferencias y necesidades específicas."
+      "description": "Adapto el horario y la ruta a tus preferencias y necesidades, no al revés."
     },
     "experience": {
-      "title": "Experiencia Local",
-      "description": "Conocimiento profundo de Ecuador, sus rutas, cultura y los mejores lugares para visitar."
+      "title": "Conocimiento Local",
+      "description": "Nací y crecí en Ecuador. Conozco las rutas, la cultura y los lugares únicos que otros no encuentran."
     },
     "comfort": {
       "title": "Máxima Comodidad",
-      "description": "Vehículo SUV espacioso de 7 asientos, perfecto para familias y grupos pequeños."
+      "description": "Mi SUV espacioso de 7 asientos mantiene a tu grupo cómodo en todo tipo de camino."
     }
   },
   "toursPage": {
-    "title": "Nuestros Tours",
-    "subtitle": "Descubre Ecuador con nuestros tours privados",
+    "title": "Mis Tours",
+    "subtitle": "Descubre Ecuador en un tour privado conmigo como guía",
     "filters": {
       "allCities": "Todas las ciudades",
       "allCategories": "Todas las categorías",
@@ -66,7 +66,7 @@
     },
     "duration": "Duración",
     "price": "Precio",
-    "perPerson": "por persona",
+    "perPerson": "/ 4 pax",
     "viewDetails": "Ver detalles",
     "bookNow": "Reservar ahora",
     "noResults": "No se encontraron tours con los filtros seleccionados"
@@ -83,8 +83,8 @@
     "relatedTours": "Tours relacionados"
   },
   "contact": {
-    "title": "Contáctanos",
-    "subtitle": "¿Listo para tu aventura? Escríbenos y planificamos juntos",
+    "title": "Contáctame",
+    "subtitle": "¿Listo para tu aventura? Escríbeme y planificamos tu viaje juntos",
     "whatsapp": "WhatsApp",
     "email": "Correo electrónico",
     "location": "Ubicación",
@@ -106,11 +106,18 @@
     "es": "Español",
     "en": "English"
   },
+  "recommendations": {
+    "title": "Recomendado en Quito",
+    "subtitle": "Seleccionados para visitantes internacionales — restaurantes, museos y lugares icónicos"
+  },
   "pdf": {
     "tourInfo": "Información del Tour",
     "contactInfo": "Información de Contacto",
     "generated": "Generado el",
     "bookNow": "¡Reserva ahora!",
-    "website": "Sitio web"
+    "website": "Sitio web",
+    "itinerary": "Itinerario",
+    "note": "Nota Importante",
+    "downloadSuccess": "¡PDF descargado exitosamente!"
   }
 }

@@ -131,7 +131,7 @@
       "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. The Intiñan Museum entrance fee ($5.00 per person) is not included in the tour price."
     },
     "image": "/images/quito.jpg",
-    "featured": true
+    "featured": false
   },
   {
     "id": 3,
@@ -399,6 +399,392 @@
       "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers. Kayak ride optional (additional cost). Horseback return from lagoon to viewpoint: $15 per person."
     },
     "image": "/images/quilotoa.jpg",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "slug": "banos-adventure",
+    "name": {
+      "es": "Baños - Puerta al Amazonas",
+      "en": "Baños - Gateway to the Amazon"
+    },
+    "city": "Baños",
+    "duration": {
+      "es": "Aprox. 12 horas — día completo desde Quito",
+      "en": "Approx. 12 hours — full day from Quito"
+    },
+    "price": 150,
+    "currency": "USD",
+    "category": "Aventura",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Visita a la Cascada Pailón del Diablo",
+        "Paseo en tarabita sobre el río Pastaza",
+        "Tiempo libre en aguas termales",
+        "Ruta de las Cascadas"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Visit to Pailón del Diablo Waterfall",
+        "Cable car ride over the Pastaza River",
+        "Free time at hot springs",
+        "Waterfall Route"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel en Quito",
+        "Viaje hacia Baños de Agua Santa (~3 horas)",
+        "Cascada Pailón del Diablo — caminata y vistas de la cascada más grande de Ecuador",
+        "Paseo en tarabita sobre el río Pastaza",
+        "Ruta de las Cascadas — recorrido por las principales cascadas del cañón",
+        "Tiempo libre en las aguas termales naturales de Baños",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Hotel pickup in Quito",
+        "Travel to Baños de Agua Santa (~3 hours)",
+        "Pailón del Diablo Waterfall — hike and views of Ecuador's largest waterfall",
+        "Cable car ride over the Pastaza River",
+        "Waterfall Route — tour through the canyon's main waterfalls",
+        "Free time at Baños natural hot springs",
+        "Return to Quito"
+      ]
+    },
+    "description": {
+      "es": "Descubre Baños de Agua Santa, un paraíso de aventura ubicado entre la cordillera andina y la amazonía. Camina hasta la impresionante Cascada Pailón del Diablo, cruza el río Pastaza en tarabita, relájate en aguas termales naturales y disfruta de la famosa Ruta de las Cascadas. Un día lleno de adrenalina y naturaleza.",
+      "en": "Discover Baños de Agua Santa, an adventure paradise located between the Andean mountains and the Amazon. Walk to the impressive Pailón del Diablo Waterfall, cross the Pastaza River by cable car, relax in natural hot springs, and enjoy the famous Waterfall Route. A day full of adrenaline and nature."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/banos.jpg",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "slug": "papallacta-thermas",
+    "name": {
+      "es": "Termas de Papallacta",
+      "en": "Papallacta Hot Springs"
+    },
+    "city": "Papallacta",
+    "duration": {
+      "es": "Aprox. 7 horas desde Quito",
+      "en": "Approx. 7 hours from Quito"
+    },
+    "price": 95,
+    "currency": "USD",
+    "category": "Relax",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Entrada a termas de Papallacta",
+        "Toalla y locker",
+        "Almuerzo buffet",
+        "Caminata opcional en páramo"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Papallacta hot springs entrance",
+        "Towel and locker",
+        "Buffet lunch",
+        "Optional páramo hike"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel en Quito",
+        "Viaje hacia Papallacta (~1h 30min) cruzando la cordillera a 3.300 m.s.n.m.",
+        "Caminata opcional por el ecosistema del páramo andino",
+        "Ingreso a las Termas de Papallacta — piscinas termales con aguas volcánicas minerales",
+        "Almuerzo buffet en el complejo",
+        "Tiempo libre en las termas",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Hotel pickup in Quito",
+        "Travel to Papallacta (~1h 30min) crossing the Andes at 3,300 m.a.s.l.",
+        "Optional hike through the Andean páramo ecosystem",
+        "Entry to Papallacta Hot Springs — thermal pools with volcanic mineral waters",
+        "Buffet lunch at the complex",
+        "Free time at the hot springs",
+        "Return to Quito"
+      ]
+    },
+    "description": {
+      "es": "Relájate en las aguas termales naturales de Papallacta, ubicadas en un entorno montañoso espectacular a 3.300 metros de altura. Las aguas provienen de los volcanes cercanos y son ricas en minerales beneficiosos para la salud. Incluye caminata opcional por el ecosistema único del páramo andino.",
+      "en": "Relax in the natural hot springs of Papallacta, located in a spectacular mountain setting at 3,300 meters altitude. The waters come from nearby volcanoes and are rich in health-beneficial minerals. Includes optional hike through the unique Andean páramo ecosystem."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/papallacta.jpg",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "ambato-city-tour",
+    "name": {
+      "es": "Ambato — Ciudad de las Flores y Frutas",
+      "en": "Ambato — City of Fruits and Flowers"
+    },
+    "city": "Ambato",
+    "duration": {
+      "es": "Aprox. 9 horas — día completo desde Quito",
+      "en": "Approx. 9 hours — full day from Quito"
+    },
+    "price": 150,
+    "currency": "USD",
+    "category": "Cultural",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Tour del centro histórico de Ambato",
+        "Visita a la Quinta de Juan Montalvo",
+        "Mercado Central de Ambato",
+        "Quisapincha — pueblo artesano del cuero",
+        "Valle de Patate — Valle de la Eterna Primavera"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Ambato historic center tour",
+        "Visit to Juan Montalvo's Quinta",
+        "Ambato Central Market",
+        "Quisapincha — leather artisan village",
+        "Patate Valley — Valley of Eternal Spring"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel en Quito",
+        "Viaje por la Carretera Panamericana Sur hacia Ambato (~2h 30min)",
+        "Centro Histórico de Ambato — Parque Montalvo, Catedral, Municipio",
+        "Quinta de Juan Montalvo — casa-museo del famoso escritor ecuatoriano",
+        "Mercado Central de Ambato — uno de los mercados más grandes del Ecuador, frutas exóticas y flores",
+        "Quisapincha — pueblo artesano famoso por sus chaquetas, bolsos y artículos de cuero",
+        "Valle de Patate — huertos de frutales, paisaje del Valle de la Eterna Primavera con vistas al Volcán Tungurahua",
+        "Regreso a Quito"
+      ],
+      "en": [
+        "Hotel pickup in Quito",
+        "Drive south on the Pan-American Highway to Ambato (~2h 30min)",
+        "Ambato Historic Center — Montalvo Park, Cathedral, Municipal building",
+        "Juan Montalvo's Quinta — house-museum of the famous Ecuadorian writer",
+        "Ambato Central Market — one of Ecuador's largest markets, exotic fruits and flowers",
+        "Quisapincha — artisan village famous for leather jackets, bags and goods",
+        "Patate Valley — fruit orchards, Valley of Eternal Spring landscape with Tungurahua Volcano views",
+        "Return to Quito"
+      ]
+    },
+    "description": {
+      "es": "Descubre Ambato, conocida como la Ciudad de las Flores y Frutas, en un recorrido privado desde Quito. Visitamos su animado centro histórico, la Quinta del escritor Juan Montalvo y el fascinante Mercado Central, uno de los más grandes del Ecuador, lleno de frutas exóticas, flores y artesanías. Continuamos hacia Quisapincha, el pueblo artesano del cuero por excelencia, y terminamos con una visita al mágico Valle de Patate, el Valle de la Eterna Primavera, con vistas panorámicas del Volcán Tungurahua.",
+      "en": "Discover Ambato, known as the City of Fruits and Flowers, on a private tour from Quito. We visit its lively historic center, the Quinta of writer Juan Montalvo, and the fascinating Central Market, one of Ecuador's largest, brimming with exotic fruits, flowers, and crafts. We then head to Quisapincha, the premier leather artisan village, and finish with a visit to the magical Patate Valley, the Valley of Eternal Spring, with panoramic views of Tungurahua Volcano."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
+    "image": "/images/ambato.jpg",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "slug": "cuenca-city-tour",
+    "name": {
+      "es": "Cuenca Patrimonio UNESCO — 2 Días",
+      "en": "Cuenca UNESCO Heritage — 2 Days"
+    },
+    "city": "Cuenca",
+    "duration": {
+      "es": "2 días / 1 noche desde Quito",
+      "en": "2 days / 1 night from Quito"
+    },
+    "price": 280,
+    "currency": "USD",
+    "category": "Cultural",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Parada en Parque Nacional Cajas",
+        "1 noche de hotel en Cuenca",
+        "Tour centro histórico Patrimonio UNESCO",
+        "Visita a taller de sombreros de paja toquilla (Panamá hat)",
+        "Mercado 10 de Agosto",
+        "Mirador de Turi",
+        "Comidas del guía/conductor incluidas"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Stop at Cajas National Park",
+        "1 night hotel in Cuenca",
+        "UNESCO Heritage historic center tour",
+        "Visit to Panama hat (toquilla straw) workshop",
+        "10 de Agosto Market",
+        "Turi Viewpoint",
+        "Meals for guide/driver included"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "DÍA 1 — Recogida en su hotel en Quito. Viaje por la Panamericana Sur (~4h 30min). Parada en el Parque Nacional Cajas (~3.800 m.s.n.m.) — lagunas glaciales y páramo único, caminata de 30-45 min. Llegada a Cuenca. Check-in en hotel. Tarde libre para explorar el centro histórico y el Río Tomebamba. Cena en el centro.",
+        "DÍA 2 — Tour completo del Centro Histórico Patrimonio UNESCO: Catedral de la Inmaculada Concepción (cúpulas azules icónicas), Plaza Abdón Calderón, Museo del Banco Central (ruinas Pumapungo), artesanías en el Mercado 10 de Agosto. Visita a taller de sombreros de paja toquilla (sombreros de Panamá). Mirador de Turi — vistas panorámicas de Cuenca y los valles circundantes. Regreso a Quito, llegada aproximada 21:00."
+      ],
+      "en": [
+        "DAY 1 — Hotel pickup in Quito. Drive south on the Pan-American Highway (~4h 30min). Stop at Cajas National Park (~3,800 m.a.s.l.) — glacial lagoons and unique páramo, 30-45 min walk. Arrival in Cuenca. Hotel check-in. Free afternoon to explore the historic center and Tomebamba River. Dinner in the center.",
+        "DAY 2 — Full UNESCO Heritage Historic Center tour: Immaculate Conception Cathedral (iconic blue domes), Abdón Calderón Plaza, Central Bank Museum (Pumapungo Inca ruins), crafts at 10 de Agosto Market. Visit to toquilla straw hat (Panama hat) workshop. Turi Viewpoint — panoramic views of Cuenca and surrounding valleys. Return to Quito, approximate arrival 21:00."
+      ]
+    },
+    "description": {
+      "es": "Cuenca, la Atenas de Ecuador y Patrimonio de la Humanidad de la UNESCO, es una de las ciudades coloniales más hermosas de América Latina. En dos días exploramos el impresionante Parque Nacional Cajas con sus lagunas glaciales, el fascinante centro histórico con sus cúpulas azules, las ruinas incas de Pumapungo, los talleres de los famosos sombreros de Panamá (auténticamente hechos en Ecuador) y el mirador de Turi para vistas panorámicas de esta ciudad única.",
+      "en": "Cuenca, the Athens of Ecuador and a UNESCO World Heritage Site, is one of Latin America's most beautiful colonial cities. Over two days we explore the stunning Cajas National Park with its glacial lagoons, the fascinating historic center with its iconic blue domes, the Inca ruins of Pumapungo, workshops of the famous Panama hats (authentically made in Ecuador), and the Turi viewpoint for panoramic views of this unique city."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche de hotel y comidas del guía/conductor.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night hotel and meals for the guide/driver."
+    },
+    "image": "/images/cuenca.jpg",
+    "featured": true
+  },
+  {
+    "id": 11,
+    "slug": "tonsupa-beach",
+    "name": {
+      "es": "Tonsupa — Playa del Pacífico",
+      "en": "Tonsupa — Pacific Beach Escape"
+    },
+    "city": "Tonsupa",
+    "duration": {
+      "es": "2 días / 1 noche desde Quito",
+      "en": "2 days / 1 night from Quito"
+    },
+    "price": 240,
+    "currency": "USD",
+    "category": "Playa",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "1 noche de hotel en Tonsupa",
+        "Playa de Tonsupa y Atacames",
+        "Tour de manglares (opcional)",
+        "Playa de Same — arena blanca",
+        "Comidas del guía/conductor incluidas"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "1 night hotel in Tonsupa",
+        "Tonsupa and Atacames beaches",
+        "Mangrove tour (optional)",
+        "Same Beach — white sand",
+        "Meals for guide/driver included"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "DÍA 1 — Recogida en su hotel en Quito. Viaje por la ruta Calacalí-La Independencia, cruzando la cordillera occidental y descendiendo hacia la costa del Pacífico (~4h 30min). Llegada a Tonsupa. Check-in en hotel frente al mar. Tarde libre en la playa de Tonsupa. Atardecer en el malecón de Atacames. Cena en restaurante de mariscos.",
+        "DÍA 2 — Mañana libre en la playa de Tonsupa. Tour opcional en lancha por los manglares del estuario (1h 30min). Visita a Playa de Same — una de las playas de arena blanca más hermosas de la costa norte de Ecuador. Almuerzo de mariscos frescos. Regreso a Quito, llegada aproximada 21:00."
+      ],
+      "en": [
+        "DAY 1 — Hotel pickup in Quito. Drive via the Calacalí-La Independencia route, crossing the western Andes and descending to the Pacific coast (~4h 30min). Arrival in Tonsupa. Hotel check-in beachfront. Free afternoon on Tonsupa beach. Sunset at Atacames boardwalk. Dinner at seafood restaurant.",
+        "DAY 2 — Free morning on Tonsupa beach. Optional boat tour through the mangrove estuary (1h 30min). Visit to Same Beach — one of the most beautiful white-sand beaches on Ecuador's northern coast. Fresh seafood lunch. Return to Quito, approximate arrival 21:00."
+      ]
+    },
+    "description": {
+      "es": "Escápate al Pacífico en un viaje privado a Tonsupa y la costa de Esmeraldas. Cruzamos la cordillera occidental para descender a las cálidas aguas del Pacífico ecuatorial. Disfrutamos de la animada playa de Tonsupa, el malecón de Atacames y la tranquila y paradisíaca Playa de Same con su arena blanca. Incluye la opción de un tour en lancha por los manglares, hogar de aves tropicales y fauna costera única.",
+      "en": "Escape to the Pacific on a private trip to Tonsupa and the Esmeraldas coast. We cross the western Andes to descend to the warm equatorial Pacific waters. We enjoy the lively Tonsupa beach, the Atacames boardwalk, and the tranquil paradise of Same Beach with its white sand. Includes the option of a boat tour through the mangroves, home to tropical birds and unique coastal wildlife."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche de hotel y comidas del guía/conductor. Tour de manglares con costo adicional.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night hotel and meals for the guide/driver. Mangrove tour at additional cost."
+    },
+    "image": "/images/tonsupa.jpg",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "slug": "misahualli-amazon",
+    "name": {
+      "es": "Misahuallí — Amazonía Ecuatoriana",
+      "en": "Misahuallí — Ecuadorian Amazon"
+    },
+    "city": "Misahuallí",
+    "duration": {
+      "es": "2 días / 1 noche desde Quito",
+      "en": "2 days / 1 night from Quito"
+    },
+    "price": 280,
+    "currency": "USD",
+    "category": "Naturaleza",
+    "includes": {
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Parada panorámica en el paso de Papallacta",
+        "1 noche en lodge en Misahuallí",
+        "Paseo en canoa por el Río Napo",
+        "Visita a comunidad indígena Kichwa",
+        "Senderismo en selva amazónica primaria",
+        "Observación de monos en la plaza de Misahuallí",
+        "Caminata nocturna (fauna nocturna)",
+        "Comidas del guía/conductor incluidas"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "Panoramic stop at Papallacta Pass",
+        "1 night at lodge in Misahuallí",
+        "Canoe ride on the Napo River",
+        "Visit to Kichwa indigenous community",
+        "Primary Amazon rainforest hike",
+        "Monkey watching at Misahuallí plaza",
+        "Night walk (nocturnal wildlife)",
+        "Meals for guide/driver included"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "DÍA 1 — Recogida en su hotel en Quito. Viaje hacia el oriente cruzando la cordillera (~4 horas): espectacular descenso desde los Andes hacia la Amazonía. Parada panorámica en el páramo de Papallacta. Llegada a Misahuallí — pueblo ribereño en la confluencia de los ríos Napo y Misahuallí. La tropa de monos capuchinos semi-salvajes recibe a los visitantes en la plaza del pueblo. Check-in en lodge amazónico. Tarde: primera caminata por senderos en la selva primaria con el guía. Cena en el lodge con cocina amazónica (maito de tilapia, chicha de yuca). Caminata nocturna — observación de ranas, insectos y fauna nocturna.",
+        "DÍA 2 — Madrugada: paseo en canoa al amanecer por el Río Napo — observación de aves (tucanes, loros, garzas). Visita a comunidad indígena Kichwa: plantas medicinales, uso del arco y la cerbatana, elaboración de chicha. Senderismo en selva primaria: cascada secreta y poza natural para baño. Almuerzo en la comunidad. Regreso a Quito cruzando nuevamente los Andes, llegada aproximada 20:00."
+      ],
+      "en": [
+        "DAY 1 — Hotel pickup in Quito. Drive east crossing the Andes (~4 hours): spectacular descent from the highlands into the Amazon. Panoramic stop at Papallacta páramo. Arrival in Misahuallí — riverside town at the confluence of the Napo and Misahuallí rivers. The semi-wild capuchin monkey troop welcomes visitors at the town plaza. Check-in at Amazon lodge. Afternoon: first jungle walk on primary forest trails with the guide. Dinner at the lodge with Amazonian cuisine (maito grilled tilapia, yuca chicha). Night walk — observation of frogs, insects, and nocturnal wildlife.",
+        "DAY 2 — Early morning: dawn canoe ride on the Napo River — bird watching (toucans, parrots, herons). Visit to Kichwa indigenous community: medicinal plants, bow and blowgun use, chicha preparation. Primary jungle hike: secret waterfall and natural swimming pool. Lunch at the community. Return to Quito crossing the Andes again, approximate arrival 20:00."
+      ]
+    },
+    "description": {
+      "es": "Misahuallí es la puerta de entrada más accesible a la Amazonía ecuatoriana desde Quito. En dos días vivimos la experiencia completa de la selva: cruzamos los Andes para descender a la cuenca amazónica, navegamos en canoa el caudaloso Río Napo al amanecer, nos adentramos en la selva primaria con un guía Kichwa, visitamos una comunidad indígena y compartimos sus tradiciones milenarias. El momento más mágico: los monos capuchinos semi-salvajes que habitan libremente en la plaza del pueblo y conviven con los visitantes.",
+      "en": "Misahuallí is the most accessible gateway to the Ecuadorian Amazon from Quito. Over two days we live the complete jungle experience: we cross the Andes to descend into the Amazon basin, paddle by canoe on the Napo River at dawn, venture into primary rainforest with a Kichwa guide, visit an indigenous community and share their ancient traditions. The most magical moment: the semi-wild capuchin monkeys that roam freely in the town plaza and mingle with visitors."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche en lodge amazónico y comidas del guía/conductor.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night at Amazon lodge and meals for the guide/driver."
+    },
+    "image": "/images/misahualli.jpg",
     "featured": true
   }
 ]
