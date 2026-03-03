@@ -2,16 +2,18 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useDocumentHead } from '@/hooks/useDocumentHead';
 import { motion } from 'framer-motion';
-import { 
-  Clock, 
-  MapPin, 
-  Tag, 
-  DollarSign, 
-  Check, 
-  ArrowLeft, 
-  MessageCircle, 
+import {
+  Clock,
+  MapPin,
+  Tag,
+  DollarSign,
+  Check,
+  ArrowLeft,
+  MessageCircle,
   Download,
-  Calendar
+  Calendar,
+  ListOrdered,
+  Info
 } from 'lucide-react';
 import { useTours } from '@/hooks/useTours';
 import { TourCard } from '@/components/TourCard';
@@ -214,6 +216,34 @@ export function TourDetails() {
                     </p>
                   </div>
 
+                  {/* Itinerary */}
+                  {tour.itinerary && (
+                    <div className="mb-8">
+                      <h2 className="text-xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-4 flex items-center gap-2">
+                        <ListOrdered className="w-5 h-5 text-[#F5A623]" />
+                        {lang === 'es' ? 'Itinerario' : 'Itinerary'}
+                      </h2>
+                      <ol className="space-y-3">
+                        {tour.itinerary[lang].map((stop, index) => (
+                          <motion.li
+                            key={index}
+                            initial={{ opacity: 0, x: -10 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.2 + index * 0.05 }}
+                            className="flex items-start gap-3"
+                          >
+                            <span className="w-6 h-6 rounded-full bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold text-[#0A3D62] dark:text-[#74B9FF]">
+                              {index + 1}
+                            </span>
+                            <span className="text-[#1E272E]/80 dark:text-[#E0E0E0]/80">
+                              {stop}
+                            </span>
+                          </motion.li>
+                        ))}
+                      </ol>
+                    </div>
+                  )}
+
                   {/* Includes */}
                   <div>
                     <h2 className="text-xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-4">
@@ -238,6 +268,16 @@ export function TourDetails() {
                       ))}
                     </ul>
                   </div>
+
+                  {/* Pricing Note */}
+                  {tour.note && (
+                    <div className="mt-6 flex items-start gap-3 p-4 rounded-xl bg-[#F5A623]/10 border border-[#F5A623]/20">
+                      <Info className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
+                      <p className="text-sm text-[#1E272E]/80 dark:text-[#E0E0E0]/80">
+                        {tour.note[lang]}
+                      </p>
+                    </div>
+                  )}
                 </motion.div>
 
                 {/* Gallery */}

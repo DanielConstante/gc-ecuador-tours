@@ -11,7 +11,9 @@ export interface Tour {
   currency: string;
   category: string;
   includes: { es: string[]; en: string[] };
+  itinerary?: { es: string[]; en: string[] };
   description: { es: string; en: string };
+  note?: { es: string; en: string };
   image: string;
   featured: boolean;
 }

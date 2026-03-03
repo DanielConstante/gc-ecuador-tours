@@ -2,19 +2,69 @@
   {
     "id": 1,
     "slug": "quito-city-tour",
-    "name": { "es": "Tour Histórico Quito", "en": "Quito Historical Tour" },
+    "name": { "es": "Tour Ciudad de Quito", "en": "Quito City Tour" },
     "city": "Quito",
-    "duration": { "es": "8 horas", "en": "8 hours" },
-    "price": 85,
+    "duration": { "es": "Aprox. 8 horas — regreso al hotel ~16:00", "en": "Approx. 8 hours — return to hotel ~16:00" },
+    "price": 150,
     "currency": "USD",
     "category": "Cultural",
     "includes": {
-      "es": ["Transporte privado en SUV de 7 asientos", "Guía bilingüe personalizado", "Entradas a sitios principales", "Botella de agua"],
-      "en": ["Private transport in 7-seat SUV", "Personalized bilingual guide", "Entry tickets to main sites", "Bottle of water"]
+      "es": [
+        "Recogida en su hotel",
+        "Transporte privado en SUV de 7 asientos",
+        "Guía bilingüe personalizado",
+        "Tour del Centro Histórico Patrimonio UNESCO",
+        "Subida en Teleférico hasta Cruz Loma (4.200 m.s.n.m.)",
+        "Caminata al columpio y Cruz Loma (~30 min)"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Private transport in 7-seat SUV",
+        "Personalized bilingual guide",
+        "UNESCO World Heritage Historic Center tour",
+        "Teleférico cable car ride to Cruz Loma (4,200 m.a.s.l.)",
+        "Walk to the swing and Cruz Loma (~30 min)"
+      ]
+    },
+    "itinerary": {
+      "es": [
+        "Recogida en su hotel",
+        "Basílica del Voto Nacional",
+        "Plaza de la Independencia (Plaza Grande)",
+        "Casa del Presidente (Palacio de Carondelet)",
+        "Monumento a la Independencia",
+        "Palacio Arzobispal",
+        "Iglesia de La Compañía de Jesús",
+        "Iglesia de San Francisco",
+        "La Ronda — calle tradicional",
+        "El Panecillo — Virgen de Quito (vistas panorámicas)",
+        "Almuerzo opcional en Restaurante Vista Hermosa — terraza con vista al centro histórico (no incluido)",
+        "Teleférico: subida de ~15 min, visita a cafetería y caminata de ~30 min hasta el columpio y Cruz Loma a 4.200 m.s.n.m.",
+        "Regreso al hotel aproximadamente a las 16:00"
+      ],
+      "en": [
+        "Hotel pickup",
+        "Basilica Cathedral (Basílica del Voto Nacional)",
+        "Independence Plaza (Plaza Grande)",
+        "President's House (Carondelet Palace)",
+        "Independence Monument",
+        "Archbishop's Palace",
+        "The Company Church (Church of the Society of Jesus)",
+        "Saint Francis Church",
+        "La Ronda — traditional street",
+        "El Panecillo — Virgen de Quito (panoramic views)",
+        "Optional lunch at Vista Hermosa restaurant — terrace overlooking colonial Quito (not included)",
+        "Teleférico: ~15-min cable car ride, cafeteria stop, then ~30-min walk to the swing and Cruz Loma at 4,200 m.a.s.l.",
+        "Return to hotel approximately at 16:00"
+      ]
     },
     "description": {
-      "es": "Explora el centro histórico de Quito, la capital más alta del mundo y primer Patrimonio Cultural de la Humanidad. Visita la Basílica del Voto Nacional, la Plaza Grande, la Iglesia de la Compañía de Jesús con su impresionante decoración dorada, y disfruta de vistas panorámicas desde el Panecillo. Un tour completo con atención personalizada en nuestro cómodo SUV.",
-      "en": "Explore Quito's historic center, the highest capital in the world and first UNESCO World Heritage Site. Visit the Basilica del Voto Nacional, Plaza Grande, the Church of the Society of Jesus with its stunning golden decoration, and enjoy panoramic views from El Panecillo. A complete tour with personalized attention in our comfortable SUV."
+      "es": "Descubre lo mejor de Quito en un tour privado exclusivo. Partiendo con recogida en tu hotel, exploramos el Centro Histórico Patrimonio de la Humanidad de la UNESCO: la monumental Basílica del Voto Nacional, la Plaza de la Independencia con el Palacio de Carondelet, la deslumbrante Iglesia de La Compañía de Jesús, la Iglesia de San Francisco y la pintoresca calle La Ronda. Subimos al Panecillo para admirar la icónica Virgen de Quito y las vistas panorámicas de la ciudad. Por la tarde, vivimos la emoción del Teleférico: ascendemos en 15 minutos a 4.200 metros sobre el nivel del mar y realizamos una caminata de 30 minutos hasta el columpio y Cruz Loma. Regreso a tu hotel aproximadamente a las 16:00.",
+      "en": "Discover the best of Quito on an exclusive private tour. Starting with hotel pickup, we explore the UNESCO World Heritage Historic Center: the monumental Basilica del Voto Nacional, Independence Plaza with the Carondelet Palace, the dazzling Church of the Society of Jesus, Saint Francis Church, and the charming La Ronda street. We ascend El Panecillo for breathtaking views and the iconic Virgen de Quito statue. In the afternoon, experience the Teleférico: a 15-minute cable car ride to 4,200 meters above sea level followed by a 30-minute walk to the swing and Cruz Loma. Return to your hotel at approximately 16:00."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
     },
     "image": "/images/quito.jpg",
     "featured": true
@@ -36,6 +86,10 @@
       "es": "Asciende hasta el refugio José Rivas a 4.864 metros sobre el nivel del mar en el volcán Cotopaxi, uno de los volcanes activos más altos del mundo. Disfruta de paisajes andinos espectaculares, lagunas glaciares y la posibilidad de avistar cóndores andinos. Una experiencia inolvidable para amantes de la naturaleza y la aventura.",
       "en": "Ascend to José Rivas refuge at 4,864 meters above sea level on Cotopaxi Volcano, one of the highest active volcanoes in the world. Enjoy spectacular Andean landscapes, glacial lagoons, and the possibility of spotting Andean condors. An unforgettable experience for nature and adventure lovers."
     },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
     "image": "/images/cotopaxi.jpg",
     "featured": true
   },
@@ -55,6 +109,10 @@
     "description": {
       "es": "Descubre Baños de Agua Santa, un paraíso de aventura ubicado entre la cordillera andina y la amazonía. Camina hasta la impresionante Cascada Pailón del Diablo, cruza el río Pastaza en tarabita, relájate en aguas termales naturales y disfruta de la famosa Ruta de las Cascadas. Un día lleno de adrenalina y naturaleza.",
       "en": "Discover Baños de Agua Santa, an adventure paradise located between the Andean mountains and the Amazon. Walk to the impressive Pailón del Diablo Waterfall, cross the Pastaza River by cable car, relax in natural hot springs, and enjoy the famous Waterfall Route. A day full of adrenaline and nature."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
     },
     "image": "/images/banos.jpg",
     "featured": true
@@ -76,6 +134,10 @@
       "es": "Sumérgete en la cultura indígena más grande de Sudamérica en el mercado de Otavalo. Admira textiles tradicionales, artesanías únicas y joyería de plata. Visita la Cascada de Peguche sagrada para los indígenas otavaleños y disfruta de vistas del imponente volcán Imbabura y el Lago San Pablo.",
       "en": "Immerse yourself in the largest indigenous culture in South America at the Otavalo market. Admire traditional textiles, unique handicrafts, and silver jewelry. Visit the sacred Peguche Waterfall for the Otavaleño indigenous people and enjoy views of the imposing Imbabura Volcano and San Pablo Lake."
     },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
     "image": "/images/otavalo.jpg",
     "featured": false
   },
@@ -95,6 +157,10 @@
     "description": {
       "es": "Contempla la impresionante Laguna de Quilotoa, un cráter volcánico lleno de agua turquesa ubicado a 3.800 metros de altura. Camina hasta el fondo del cráter, interactúa con comunidades indígenas locales y disfruta de uno de los paisajes más fotografiados de Ecuador. Los colores del agua cambian según la luz del sol.",
       "en": "Contemplate the stunning Quilotoa Lagoon, a volcanic crater filled with turquoise water located at 3,800 meters altitude. Walk to the bottom of the crater, interact with local indigenous communities, and enjoy one of Ecuador's most photographed landscapes. The water colors change according to sunlight."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
     },
     "image": "/images/quilotoa.jpg",
     "featured": true
@@ -116,6 +182,10 @@
       "es": "Relájate en las aguas termales naturales de Papallacta, ubicadas en un entorno montañoso espectacular a 3.300 metros de altura. Las aguas provienen de los volcanes cercanos y son ricas en minerales beneficiosos para la salud. Incluye caminata opcional por el ecosistema único del páramo andino.",
       "en": "Relax in the natural hot springs of Papallacta, located in a spectacular mountain setting at 3,300 meters altitude. The waters come from nearby volcanoes and are rich in health-beneficial minerals. Includes optional hike through the unique Andean páramo ecosystem."
     },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
     "image": "/images/papallacta.jpg",
     "featured": false
   },
@@ -136,6 +206,10 @@
       "es": "Explora Mindo, uno de los mejores destinos para observación de aves del mundo con más de 500 especies. Camina por el bosque nublado, visita un mariposario con especies exóticas, nada en cascadas cristalinas y aprende sobre el proceso del chocolate desde el árbol hasta la barra en una finca local.",
       "en": "Explore Mindo, one of the world's best birdwatching destinations with over 500 species. Walk through the cloud forest, visit a butterfly farm with exotic species, swim in crystal-clear waterfalls, and learn about the chocolate process from tree to bar at a local farm."
     },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+    },
     "image": "/images/mindo.jpg",
     "featured": false
   },
@@ -155,6 +229,10 @@
     "description": {
       "es": "Sube en el teleférico más alto del mundo hasta Cruz Loma a 4.100 metros con vistas espectaculares de Quito y los volcanes circundantes. Combina esta experiencia con un recorrido por el centro histórico visitando sus plazas coloniales, iglesias y museos más importantes.",
       "en": "Ride the world's highest cable car to Cruz Loma at 4,100 meters with spectacular views of Quito and surrounding volcanoes. Combine this experience with a tour of the historic center visiting its most important colonial plazas, churches, and museums."
+    },
+    "note": {
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
     },
     "image": "/images/teleferico.jpg",
     "featured": false
