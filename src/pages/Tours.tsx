@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDocumentHead } from '@/hooks/useDocumentHead';
 import { motion } from 'framer-motion';
-import { Filter, MapPin, Tag, DollarSign, X } from 'lucide-react';
+import { Filter, MapPin, Tag, DollarSign, X, Car, Info, CreditCard, Shield } from 'lucide-react';
 import { useTours } from '@/hooks/useTours';
 import { TourCard } from '@/components/TourCard';
 import {
@@ -221,6 +221,118 @@ export function Tours() {
               </button>
             </motion.div>
           )}
+        </div>
+
+        {/* Safety Section */}
+        <div className="max-w-7xl mx-auto mt-24 pt-16 border-t border-[#0A3D62]/10 dark:border-[#74B9FF]/20">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-10"
+          >
+            <div className="flex flex-col items-center gap-3 mb-4">
+              <img
+                src="/images/security-symbol.jpeg"
+                alt="Ecuador Safety Certification"
+                className="w-16 h-16 object-contain rounded-xl shadow-md"
+              />
+              <span className="px-4 py-1.5 rounded-full bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 text-sm font-medium text-[#0A3D62] dark:text-[#74B9FF]">
+                {t('security.badge')}
+              </span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-3">
+              {t('security.title')}
+            </h2>
+            <p className="text-base text-[#1E272E]/70 dark:text-[#E0E0E0]/70 max-w-2xl mx-auto">
+              {t('security.subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0 }}
+              className="glass-card rounded-2xl p-5"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-9 h-9 rounded-xl bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 flex items-center justify-center shrink-0">
+                  <Car className="w-4 h-4 text-[#0A3D62] dark:text-[#74B9FF]" />
+                </div>
+                <h3 className="font-semibold text-sm text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.transport.title')}</h3>
+              </div>
+              <p className="text-xs text-[#1E272E]/70 dark:text-[#E0E0E0]/70 leading-relaxed">
+                {t('security.transport.body')}
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="glass-card rounded-2xl p-5"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-9 h-9 rounded-xl bg-[#F5A623]/10 flex items-center justify-center shrink-0">
+                  <Info className="w-4 h-4 text-[#F5A623]" />
+                </div>
+                <h3 className="font-semibold text-sm text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.tips.title')}</h3>
+              </div>
+              <ul className="space-y-1.5">
+                {(t('security.tips.items', { returnObjects: true }) as string[]).map((item, i) => (
+                  <li key={i} className="flex items-start gap-2 text-xs text-[#1E272E]/70 dark:text-[#E0E0E0]/70">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#F5A623] mt-1.5 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="glass-card rounded-2xl p-5"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-9 h-9 rounded-xl bg-emerald-500/10 flex items-center justify-center shrink-0">
+                  <CreditCard className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                </div>
+                <h3 className="font-semibold text-sm text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.atm.title')}</h3>
+              </div>
+              <ul className="space-y-1.5">
+                {(t('security.atm.items', { returnObjects: true }) as string[]).map((item, i) => (
+                  <li key={i} className="flex items-start gap-2 text-xs text-[#1E272E]/70 dark:text-[#E0E0E0]/70">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mt-1.5 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="glass-card rounded-2xl p-5"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-9 h-9 rounded-xl bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 flex items-center justify-center shrink-0">
+                  <Shield className="w-4 h-4 text-[#0A3D62] dark:text-[#74B9FF]" />
+                </div>
+                <h3 className="font-semibold text-sm text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.police.title')}</h3>
+              </div>
+              <p className="text-xs text-[#1E272E]/70 dark:text-[#E0E0E0]/70 leading-relaxed">
+                {t('security.police.body')}
+              </p>
+            </motion.div>
+          </div>
         </div>
       </main>
     </>

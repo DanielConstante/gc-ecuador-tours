@@ -7,6 +7,7 @@ import { ScrollToTop } from '@/components/ScrollToTop';
 import { Home } from '@/pages/Home';
 import { Tours } from '@/pages/Tours';
 import { TourDetails } from '@/pages/TourDetails';
+import { Contact } from '@/pages/Contact';
 import './i18n';
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/tours" element={<Tours />} />
               <Route path="/tours/:slug" element={<TourDetails />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
           </div>

@@ -82,6 +82,27 @@
     "downloadPDF": "Download PDF",
     "relatedTours": "Related tours"
   },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Have questions about your trip? Fill out the form and we'll get back to you shortly.",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Smith",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 234 567 8900",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your trip plans, dates, group size...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "successTitle": "Message Sent!",
+      "successText": "Thank you! We'll get back to you within 24 hours.",
+      "errorText": "Something went wrong. Please try WhatsApp or email us directly."
+    },
+    "orContact": "Or reach us directly",
+    "sendForm": "Send us a message"
+  },
   "contact": {
     "title": "Get in Touch",
     "subtitle": "Ready for your adventure? Write to me and let's plan your trip together",
@@ -109,6 +130,46 @@
   "recommendations": {
     "title": "Recommended in Quito",
     "subtitle": "Top picks for international visitors — restaurants, museums & iconic spots"
+  },
+  "testimonials": {
+    "title": "What Our Travelers Say",
+    "subtitle": "Real experiences from guests who explored Ecuador with Don Galo",
+    "badge": "Reviews",
+    "reviewsTitle": "As Seen in Reviews"
+  },
+  "security": {
+    "badge": "Safety Info",
+    "title": "Travel Safety in Ecuador",
+    "subtitle": "Ecuador is a safe and welcoming destination. Here are key tips for a worry-free journey.",
+    "transport": {
+      "title": "Transport Security",
+      "body": "Tourism vehicles in Ecuador carry a special identification issued by the National Transit Agency (ANT). All road users across Ecuador are covered by free accident insurance throughout the national road network."
+    },
+    "tips": {
+      "title": "General Recommendations",
+      "items": [
+        "Keep in regular contact with family and friends.",
+        "Always leave valuables in the hotel safe.",
+        "Be cautious in crowded places, bars or nightclubs — never accept drinks from strangers.",
+        "For information, ask at your hotel reception or trusted tour operators. Avoid consulting strangers."
+      ]
+    },
+    "atm": {
+      "title": "ATMs & Cash",
+      "items": [
+        "Exchange money only at authorized banks and exchange houses.",
+        "Go to the bank or ATM accompanied when possible.",
+        "Use ATMs in public, well-lit locations.",
+        "Do not accept help or company from unknown people.",
+        "Keep your documents and cards in sight when making payments."
+      ]
+    },
+    "police": {
+      "title": "Tourist Police Unit",
+      "body": "The National Community & Tourism Police Unit carries out preventive and operational activities for national and foreign tourists. Officers are deployed in: Carchi, Esmeraldas, Imbabura, Napo, Tungurahua, Pastaza, Chimborazo, Manabí, Galápagos, Santa Elena, Azuay, Loja, Metropolitan District of Quito and Metropolitan District of Guayaquil."
+    },
+    "tourNote": "Ecuador is a safe destination. Our guide holds ANT certification and all road trips are covered by free accident insurance.",
+    "tourNoteTip": "Travel with confidence"
   },
   "pdf": {
     "tourInfo": "Tour Information",

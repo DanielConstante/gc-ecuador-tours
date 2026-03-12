@@ -27,12 +27,13 @@ export function Navbar() {
   const navLinks = [
     { to: '/', label: t('nav.home') },
     { to: '/tours', label: t('nav.tours') },
-    { to: '/#contact', label: t('nav.contact') },
+    { to: '/contact', label: t('nav.contact') },
   ];
 
   const isActive = (path: string) => {
     if (path === '/') return location.pathname === '/';
     if (path === '/tours') return location.pathname.startsWith('/tours');
+    if (path === '/contact') return location.pathname === '/contact';
     return false;
   };
 

@@ -15,7 +15,8 @@ import {
   Download,
   Calendar,
   ListOrdered,
-  Info
+  Info,
+  ShieldCheck
 } from 'lucide-react';
 import { useTours } from '@/hooks/useTours';
 import { TourCard } from '@/components/TourCard';
@@ -349,6 +350,32 @@ export function TourDetails() {
                       <MessageCircle className="w-5 h-5" />
                       <span>{t('tourDetails.bookWhatsApp')}</span>
                     </a>
+                  </div>
+
+                  {/* Security Note Card */}
+                  <div className="glass-card rounded-2xl p-5 border border-[#0A3D62]/10 dark:border-[#74B9FF]/20">
+                    <div className="flex items-center gap-3 mb-3">
+                      <img
+                        src="/images/security-symbol.jpeg"
+                        alt="Safety"
+                        className="w-10 h-10 object-contain rounded-lg shrink-0"
+                      />
+                      <div>
+                        <p className="text-xs font-semibold text-[#0A3D62] dark:text-[#74B9FF] uppercase tracking-wide">
+                          {t('security.badge')}
+                        </p>
+                        <p className="text-xs text-[#1E272E]/50 dark:text-[#E0E0E0]/50">
+                          {t('security.tourNoteTip')}
+                        </p>
+                      </div>
+                    </div>
+                    <p className="text-xs text-[#1E272E]/70 dark:text-[#E0E0E0]/70 leading-relaxed">
+                      {t('security.tourNote')}
+                    </p>
+                    <div className="mt-3 flex items-center gap-1.5 text-xs text-emerald-600 dark:text-emerald-400 font-medium">
+                      <ShieldCheck className="w-3.5 h-3.5" />
+                      <span>{lang === 'es' ? 'Certificado ANT' : 'ANT Certified'}</span>
+                    </div>
                   </div>
 
                   {/* Download PDF Card */}

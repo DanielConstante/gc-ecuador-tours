@@ -82,6 +82,27 @@
     "downloadPDF": "Descargar PDF",
     "relatedTours": "Tours relacionados"
   },
+  "contactPage": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas sobre tu viaje? Completa el formulario y te responderemos pronto.",
+    "form": {
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Juan Pérez",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "+593 99 123 4567",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tus planes de viaje, fechas, tamaño del grupo...",
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando...",
+      "successTitle": "¡Mensaje Enviado!",
+      "successText": "¡Gracias! Te responderemos en menos de 24 horas.",
+      "errorText": "Algo salió mal. Por favor contáctanos por WhatsApp o correo directamente."
+    },
+    "orContact": "O contáctanos directamente",
+    "sendForm": "Envíanos un mensaje"
+  },
   "contact": {
     "title": "Contáctame",
     "subtitle": "¿Listo para tu aventura? Escríbeme y planificamos tu viaje juntos",
@@ -109,6 +130,46 @@
   "recommendations": {
     "title": "Recomendado en Quito",
     "subtitle": "Seleccionados para visitantes internacionales — restaurantes, museos y lugares icónicos"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Viajeros",
+    "subtitle": "Experiencias reales de huéspedes que exploraron Ecuador con Don Galo",
+    "badge": "Reseñas",
+    "reviewsTitle": "Visto en Reseñas"
+  },
+  "security": {
+    "badge": "Info de Seguridad",
+    "title": "Seguridad en tu Viaje por Ecuador",
+    "subtitle": "Ecuador es un destino seguro y acogedor. Aquí tienes consejos clave para viajar sin preocupaciones.",
+    "transport": {
+      "title": "Seguridad en el Transporte",
+      "body": "Los vehículos de turismo en Ecuador cuentan con identificación especial emitida por la Agencia Nacional de Tránsito (ANT). Los usuarios de la Red Vial en todo el territorio ecuatoriano cuentan con cobertura gratuita por accidentes de tránsito."
+    },
+    "tips": {
+      "title": "Otras Recomendaciones",
+      "items": [
+        "Mantenga comunicación frecuente con familiares y amigos.",
+        "Deje siempre los objetos de valor en la caja de seguridad del hotel.",
+        "Sea precavido en lugares concurridos, bares o discotecas — no acepte bebidas de extraños.",
+        "Para información, solicítela en la recepción del hotel u operadores turísticos. No consulte a extraños."
+      ]
+    },
+    "atm": {
+      "title": "Cajeros Automáticos y Efectivo",
+      "items": [
+        "Cambie dinero exclusivamente en bancos y casas de cambio autorizadas.",
+        "Vaya al banco o cajero automático acompañado cuando sea posible.",
+        "Utilice cajeros automáticos en lugares públicos y bien iluminados.",
+        "No acepte ayuda ni compañía de personas desconocidas.",
+        "No pierda de vista sus documentos y tarjetas al momento de hacer un pago."
+      ]
+    },
+    "police": {
+      "title": "Policía Comunitaria y Turismo",
+      "body": "La Unidad Nacional de Policía Comunitaria y Turismo desarrolla actividades preventivas en beneficio de turistas nacionales y extranjeros. Efectivos presentes en: Carchi, Esmeraldas, Imbabura, Napo, Tungurahua, Pastaza, Chimborazo, Manabí, Galápagos, Santa Elena, Azuay, Loja, D.M. de Quito y D.M. de Guayaquil."
+    },
+    "tourNote": "Ecuador es un destino seguro. Nuestro guía cuenta con certificación ANT y todos los traslados tienen cobertura gratuita por accidentes de tránsito.",
+    "tourNoteTip": "Viaja con confianza"
   },
   "pdf": {
     "tourInfo": "Información del Tour",

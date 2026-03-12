@@ -20,7 +20,10 @@ import {
   Building2,
   Eye,
   Coffee,
-  Star
+  Star,
+  Quote,
+  CreditCard,
+  Info
 } from 'lucide-react';
 import { useTours } from '@/hooks/useTours';
 import { TourCard } from '@/components/TourCard';
@@ -162,6 +165,42 @@ export function Home() {
       tip: { es: 'Perfecto al atardecer', en: 'Perfect at sunset' },
       image: '/images/cafe-mosaico.jpg',
     },
+  ];
+
+  const textTestimonials = [
+    {
+      name: 'Edith & Philip',
+      location: { es: 'Canadá 🇨🇦', en: 'Canada 🇨🇦' },
+      stars: 5,
+      quote: {
+        en: 'We had an exceptional visit to Ecuador thanks to you and your expertise. We enjoyed travelling together, discovering amazing places, tasting delicious food and having great conversations. Your warm and kind personality was a real gift for us!',
+        es: 'Tuvimos una visita excepcional a Ecuador gracias a ti y tu experiencia. Disfrutamos viajar juntos, descubrir lugares increíbles, probar comida deliciosa y tener grandes conversaciones. ¡Tu cálida personalidad fue un verdadero regalo para nosotros!',
+      },
+    },
+    {
+      name: 'Linda & Robert',
+      location: { es: 'Reino Unido 🇬🇧', en: 'United Kingdom 🇬🇧' },
+      stars: 5,
+      quote: {
+        en: 'Thank you so much for everything, Don Galo! We are returning home so happy, carrying wonderful memories of Ecuador and the Galápagos. You helped make this trip truly special — thank you for all your guidance and warm hospitality!',
+        es: '¡Muchísimas gracias por todo, Don Galo! Regresamos a casa muy felices, con recuerdos maravillosos de Ecuador y las Galápagos. Nos ayudaste a hacer este viaje verdaderamente especial. ¡Gracias por toda tu guía y cálida hospitalidad!',
+      },
+    },
+    {
+      name: 'Sarah & James',
+      location: { es: 'Nueva York, EE.UU. 🇺🇸', en: 'New York, USA 🇺🇸' },
+      stars: 5,
+      quote: {
+        en: "Don Galo is simply the best guide we've ever had! From the colonial streets of Quito to the breathtaking views of Cotopaxi, he made every moment unforgettable. His passion for Ecuador is truly contagious — we highly recommend GC Ecuador Tours!",
+        es: '¡Don Galo es simplemente el mejor guía que hemos tenido! Desde las calles coloniales de Quito hasta las impresionantes vistas del Cotopaxi, hizo cada momento inolvidable. Su pasión por Ecuador es contagiosa. ¡Recomendamos ampliamente GC Ecuador Tours!',
+      },
+    },
+  ];
+
+  const imageTestimonials = [
+    { id: 1, image: '/images/testimonial-1.jpeg', name: 'Jake & Emily', location: { es: 'Mensaje de WhatsApp', en: 'WhatsApp Message' }, stars: 5 },
+    { id: 2, image: '/images/testimonial-2.jpeg', name: 'Merjin & Johanna', location: { es: 'Mensaje de WhatsApp', en: 'WhatsApp Message' }, stars: 5 },
+    { id: 3, image: '/images/testimonial-3.jpeg', name: 'Chris & Amanda', location: { es: 'Reseña del Hotel', en: 'Hotel Review' }, stars: 5 },
   ];
 
   useDocumentHead({
@@ -458,15 +497,97 @@ export function Home() {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
+        {/* Testimonials Section */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="glass-card-strong rounded-3xl p-8 sm:p-12 text-center"
+              className="text-center mb-16"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F5A623]/10 mb-4">
+                <Star className="w-4 h-4 text-[#F5A623]" />
+                <span className="text-sm font-medium text-[#F5A623]">{t('testimonials.badge')}</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-4">
+                {t('testimonials.title')}
+              </h2>
+              <p className="text-lg text-[#1E272E]/70 dark:text-[#E0E0E0]/70 max-w-2xl mx-auto">
+                {t('testimonials.subtitle')}
+              </p>
+            </motion.div>
+
+            {/* Text Testimonials */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              {textTestimonials.map((item, index) => (
+                <motion.div
+                  key={item.name}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="glass-card rounded-2xl p-6 flex flex-col gap-4 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                >
+                  <Quote className="w-8 h-8 text-[#F5A623]/60 shrink-0" />
+                  <div className="flex gap-0.5">
+                    {Array.from({ length: item.stars }).map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-[#F5A623] text-[#F5A623]" />
+                    ))}
+                  </div>
+                  <p className="text-sm text-[#1E272E]/80 dark:text-[#E0E0E0]/80 leading-relaxed flex-1 italic">
+                    "{item.quote[lang]}"
+                  </p>
+                  <div className="pt-4 border-t border-[#0A3D62]/10 dark:border-[#74B9FF]/20">
+                    <p className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF] text-sm">{item.name}</p>
+                    <p className="text-xs text-[#1E272E]/50 dark:text-[#E0E0E0]/50 mt-0.5">{item.location[lang]}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Image Testimonials */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {imageTestimonials.map((item, index) => (
+                <motion.div
+                  key={item.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="glass-card rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                >
+                  <img
+                    src={item.image}
+                    alt={lang === 'es' ? 'Reseña de viajero' : 'Traveler review'}
+                    className="w-full object-contain"
+                    loading="lazy"
+                  />
+                  <div className="p-4 border-t border-[#0A3D62]/10 dark:border-[#74B9FF]/20">
+                    <div className="flex gap-0.5 mb-2">
+                      {Array.from({ length: item.stars }).map((_, i) => (
+                        <Star key={i} className="w-3.5 h-3.5 fill-[#F5A623] text-[#F5A623]" />
+                      ))}
+                    </div>
+                    <p className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF] text-sm">{item.name}</p>
+                    <p className="text-xs text-[#1E272E]/50 dark:text-[#E0E0E0]/50 mt-0.5">{item.location[lang]}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="glass-card-strong rounded-2xl p-8 sm:p-10 text-center"
             >
               <h2 className="text-3xl sm:text-4xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-4">
                 {t('contact.title')}
@@ -475,7 +596,7 @@ export function Home() {
                 {t('contact.subtitle')}
               </p>
 
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
                   href={`https://wa.me/593984023098?text=${encodeURIComponent(lang === 'es' ? 'Hola! Me gustaría información sobre sus tours en Ecuador.' : 'Hello! I would like information about your tours in Ecuador.')}`}
                   target="_blank"
@@ -497,13 +618,138 @@ export function Home() {
                 </a>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-[#0A3D62]/10 dark:border-[#74B9FF]/20">
+              <div className="mt-8 pt-8 border-t border-[#0A3D62]/10 dark:border-[#74B9FF]/20 flex flex-col items-center gap-4">
                 <p className="text-sm text-[#1E272E]/50 dark:text-[#E0E0E0]/50">
                   <Clock className="w-4 h-4 inline mr-2" />
                   {t('contact.availability')}
                 </p>
+                <Link
+                  to="/contact"
+                  className="flex items-center gap-2 text-sm text-[#0A3D62] dark:text-[#74B9FF] font-medium hover:underline underline-offset-2 transition-colors"
+                >
+                  <ArrowRight className="w-4 h-4" />
+                  {t('contactPage.sendForm')}
+                </Link>
               </div>
             </motion.div>
+          </div>
+        </section>
+
+        {/* Safety Section */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-transparent via-[#0A3D62]/5 dark:via-[#74B9FF]/5 to-transparent">
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="text-center mb-16"
+            >
+              <div className="flex flex-col items-center gap-3 mb-4">
+                <img
+                  src="/images/security-symbol.jpeg"
+                  alt="Ecuador Safety Certification"
+                  className="w-20 h-20 object-contain rounded-xl shadow-md"
+                />
+                <span className="px-4 py-1.5 rounded-full bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 text-sm font-medium text-[#0A3D62] dark:text-[#74B9FF]">
+                  {t('security.badge')}
+                </span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#0A3D62] dark:text-[#F4F9FF] mb-4">
+                {t('security.title')}
+              </h2>
+              <p className="text-lg text-[#1E272E]/70 dark:text-[#E0E0E0]/70 max-w-2xl mx-auto">
+                {t('security.subtitle')}
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {/* Transport Security */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0 }}
+                className="glass-card rounded-2xl p-6"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-xl bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 flex items-center justify-center shrink-0">
+                    <Car className="w-5 h-5 text-[#0A3D62] dark:text-[#74B9FF]" />
+                  </div>
+                  <h3 className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.transport.title')}</h3>
+                </div>
+                <p className="text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70 leading-relaxed">
+                  {t('security.transport.body')}
+                </p>
+              </motion.div>
+
+              {/* General Tips */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="glass-card rounded-2xl p-6"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-xl bg-[#F5A623]/10 flex items-center justify-center shrink-0">
+                    <Info className="w-5 h-5 text-[#F5A623]" />
+                  </div>
+                  <h3 className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.tips.title')}</h3>
+                </div>
+                <ul className="space-y-2">
+                  {(t('security.tips.items', { returnObjects: true }) as string[]).map((item, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#F5A623] mt-2 shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+
+              {/* ATM & Cash */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="glass-card rounded-2xl p-6"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center shrink-0">
+                    <CreditCard className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                  </div>
+                  <h3 className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.atm.title')}</h3>
+                </div>
+                <ul className="space-y-2">
+                  {(t('security.atm.items', { returnObjects: true }) as string[]).map((item, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mt-2 shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+
+              {/* Tourist Police */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="glass-card rounded-2xl p-6"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-xl bg-[#0A3D62]/10 dark:bg-[#74B9FF]/10 flex items-center justify-center shrink-0">
+                    <Shield className="w-5 h-5 text-[#0A3D62] dark:text-[#74B9FF]" />
+                  </div>
+                  <h3 className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF]">{t('security.police.title')}</h3>
+                </div>
+                <p className="text-sm text-[#1E272E]/70 dark:text-[#E0E0E0]/70 leading-relaxed">
+                  {t('security.police.body')}
+                </p>
+              </motion.div>
+            </div>
           </div>
         </section>
 
