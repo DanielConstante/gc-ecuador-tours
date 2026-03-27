@@ -2,6 +2,8 @@
   "nav": {
     "home": "Home",
     "tours": "Tours",
+    "gallery": "Gallery",
+    "testimonials": "Reviews",
     "contact": "Contact"
   },
   "hero": {

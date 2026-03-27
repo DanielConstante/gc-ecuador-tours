@@ -27,6 +27,8 @@ export function Navbar() {
   const navLinks = [
     { to: '/', label: t('nav.home') },
     { to: '/tours', label: t('nav.tours') },
+    { to: '/gallery', label: t('nav.gallery') },
+    { to: '/testimonials', label: t('nav.testimonials') },
     { to: '/contact', label: t('nav.contact') },
   ];
 
@@ -34,6 +36,8 @@ export function Navbar() {
     if (path === '/') return location.pathname === '/';
     if (path === '/tours') return location.pathname.startsWith('/tours');
     if (path === '/contact') return location.pathname === '/contact';
+    if (path === '/gallery') return location.pathname === '/gallery';
+    if (path === '/testimonials') return location.pathname === '/testimonials';
     return false;
   };
 

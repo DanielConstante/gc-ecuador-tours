@@ -8,6 +8,8 @@ import { Home } from '@/pages/Home';
 import { Tours } from '@/pages/Tours';
 import { TourDetails } from '@/pages/TourDetails';
 import { Contact } from '@/pages/Contact';
+import { Gallery } from '@/pages/Gallery';
+import { Testimonials } from '@/pages/Testimonials';
 import './i18n';
 import './App.css';
 
@@ -24,6 +26,8 @@ function App() {
               <Route path="/tours" element={<Tours />} />
               <Route path="/tours/:slug" element={<TourDetails />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/testimonials" element={<Testimonials />} />
             </Routes>
             <Footer />
           </div>

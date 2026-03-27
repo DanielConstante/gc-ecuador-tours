@@ -2,6 +2,145 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useDocumentHead } from '@/hooks/useDocumentHead';
+import { useCallback, useEffect, useState } from 'react';
+import { textTestimonials } from '@/data/testimonials';
+import useEmblaCarousel from 'embla-carousel-react';
+
+const CAR_IMAGES = [
+  '/images/car/IMG_1428.JPG',
+  '/images/car/IMG_1429.JPG',
+  '/images/car/IMG_1430.JPG',
+  '/images/car/IMG_1431.JPG',
+  '/images/car/IMG_1432.JPG',
+  '/images/car/IMG_1433.JPG',
+  '/images/car/IMG_1434.JPG',
+  '/images/car/IMG_1435.JPG',
+  '/images/car/IMG_1436.JPG',
+  '/images/car/IMG_1437.JPG',
+  '/images/car/IMG_1438.JPG',
+  '/images/car/IMG_1439.JPG',
+  '/images/car/IMG_1440.JPG',
+  '/images/car/IMG_1441.JPG',
+  '/images/car/IMG_1442.JPG',
+  '/images/car/IMG_1443.JPG',
+  '/images/car/IMG_1444.JPG',
+  '/images/car/IMG_1445.JPG',
+  '/images/car/IMG_1446.JPG',
+  '/images/car/IMG_1447.JPG',
+  '/images/car/IMG_1448.JPG',
+  '/images/car/IMG_1449.JPG',
+  '/images/car/IMG_1450.JPG',
+  '/images/car/IMG_1451.JPG',
+];
+
+function CarCarousel({ lang }: { lang: 'es' | 'en' }) {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+  const scrollTo = useCallback((index: number) => emblaApi?.scrollTo(index), [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap());
+    emblaApi.on('select', onSelect);
+    return () => { emblaApi.off('select', onSelect); };
+  }, [emblaApi]);
+
+  // Autoplay every 4 seconds
+  useEffect(() => {
+    if (!emblaApi) return;
+    const timer = setInterval(() => emblaApi.scrollNext(), 4000);
+    return () => clearInterval(timer);
+  }, [emblaApi]);
+
+  return (
+    <section className="py-20 bg-[#0A3D62] dark:bg-[#081D2E] overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-10"
+        >
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">
+            {lang === 'es' ? 'Nuestro Vehículo & Experiencias' : 'Our Vehicle & Experiences'}
+          </h2>
+          <p className="text-white/70 max-w-xl mx-auto">
+            {lang === 'es'
+              ? 'Viaja con comodidad en nuestro SUV de 7 asientos por los destinos más increíbles de Ecuador.'
+              : 'Travel in comfort in our 7-seat SUV across Ecuador\'s most incredible destinations.'}
+          </p>
+        </motion.div>
+
+        <div className="relative">
+          <div className="overflow-hidden rounded-2xl" ref={emblaRef}>
+            <div className="flex">
+              {CAR_IMAGES.map((src, i) => (
+                <div key={src} className="flex-none w-full sm:w-1/2 lg:w-1/3 px-2">
+                  <div className="aspect-[4/3] overflow-hidden rounded-xl">
+                    <img
+                      src={src}
+                      alt={`GC Ecuador Tours photo ${i + 1}`}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Arrows */}
+          <button
+            onClick={scrollPrev}
+            className="absolute left-2 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/20 hover:bg-white/30 text-white transition-colors backdrop-blur-sm"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            onClick={scrollNext}
+            className="absolute right-2 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/20 hover:bg-white/30 text-white transition-colors backdrop-blur-sm"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Dots */}
+        <div className="flex justify-center gap-2 mt-6">
+          {CAR_IMAGES.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => scrollTo(i)}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                i === selectedIndex ? 'bg-[#F5A623] w-6' : 'bg-white/30 hover:bg-white/50'
+              }`}
+            />
+          ))}
+        </div>
+
+        {/* Link to gallery */}
+        <div className="text-center mt-8">
+          <Link
+            to="/gallery"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#F5A623] hover:bg-[#E09513] text-white font-semibold transition-all duration-300 hover:scale-105 shadow-lg shadow-[#F5A623]/30"
+          >
+            {lang === 'es' ? 'Ver Galería Completa' : 'View Full Gallery'}
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
 import {
   MapPin,
   Clock,
@@ -167,41 +306,7 @@ export function Home() {
     },
   ];
 
-  const textTestimonials = [
-    {
-      name: 'Edith & Philip',
-      location: { es: 'Canadá 🇨🇦', en: 'Canada 🇨🇦' },
-      stars: 5,
-      quote: {
-        en: 'We had an exceptional visit to Ecuador thanks to you and your expertise. We enjoyed travelling together, discovering amazing places, tasting delicious food and having great conversations. Your warm and kind personality was a real gift for us!',
-        es: 'Tuvimos una visita excepcional a Ecuador gracias a ti y tu experiencia. Disfrutamos viajar juntos, descubrir lugares increíbles, probar comida deliciosa y tener grandes conversaciones. ¡Tu cálida personalidad fue un verdadero regalo para nosotros!',
-      },
-    },
-    {
-      name: 'Linda & Robert',
-      location: { es: 'Reino Unido 🇬🇧', en: 'United Kingdom 🇬🇧' },
-      stars: 5,
-      quote: {
-        en: 'Thank you so much for everything, Don Galo! We are returning home so happy, carrying wonderful memories of Ecuador and the Galápagos. You helped make this trip truly special — thank you for all your guidance and warm hospitality!',
-        es: '¡Muchísimas gracias por todo, Don Galo! Regresamos a casa muy felices, con recuerdos maravillosos de Ecuador y las Galápagos. Nos ayudaste a hacer este viaje verdaderamente especial. ¡Gracias por toda tu guía y cálida hospitalidad!',
-      },
-    },
-    {
-      name: 'Sarah & James',
-      location: { es: 'Nueva York, EE.UU. 🇺🇸', en: 'New York, USA 🇺🇸' },
-      stars: 5,
-      quote: {
-        en: "Don Galo is simply the best guide we've ever had! From the colonial streets of Quito to the breathtaking views of Cotopaxi, he made every moment unforgettable. His passion for Ecuador is truly contagious — we highly recommend GC Ecuador Tours!",
-        es: '¡Don Galo es simplemente el mejor guía que hemos tenido! Desde las calles coloniales de Quito hasta las impresionantes vistas del Cotopaxi, hizo cada momento inolvidable. Su pasión por Ecuador es contagiosa. ¡Recomendamos ampliamente GC Ecuador Tours!',
-      },
-    },
-  ];
-
-  const imageTestimonials = [
-    { id: 1, image: '/images/testimonial-1.jpeg', name: 'Jake & Emily', location: { es: 'Mensaje de WhatsApp', en: 'WhatsApp Message' }, stars: 5 },
-    { id: 2, image: '/images/testimonial-2.jpeg', name: 'Merjin & Johanna', location: { es: 'Mensaje de WhatsApp', en: 'WhatsApp Message' }, stars: 5 },
-    { id: 3, image: '/images/testimonial-3.jpeg', name: 'Chris & Amanda', location: { es: 'Reseña del Hotel', en: 'Hotel Review' }, stars: 5 },
-  ];
+  const featuredTestimonials = textTestimonials.slice(0, 3);
 
   useDocumentHead({
     title: lang === 'es'
@@ -293,6 +398,9 @@ export function Home() {
             </motion.div>
           </div>
         </section>
+
+        {/* Car Carousel Section */}
+        <CarCarousel lang={lang} />
 
         {/* Featured Tours Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
@@ -519,9 +627,9 @@ export function Home() {
               </p>
             </motion.div>
 
-            {/* Text Testimonials */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-              {textTestimonials.map((item, index) => (
+            {/* Text Testimonials — top 3 */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+              {featuredTestimonials.map((item, index) => (
                 <motion.div
                   key={item.name}
                   initial={{ opacity: 0, y: 20 }}
@@ -547,34 +655,15 @@ export function Home() {
               ))}
             </div>
 
-            {/* Image Testimonials */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {imageTestimonials.map((item, index) => (
-                <motion.div
-                  key={item.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="glass-card rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
-                >
-                  <img
-                    src={item.image}
-                    alt={lang === 'es' ? 'Reseña de viajero' : 'Traveler review'}
-                    className="w-full object-contain"
-                    loading="lazy"
-                  />
-                  <div className="p-4 border-t border-[#0A3D62]/10 dark:border-[#74B9FF]/20">
-                    <div className="flex gap-0.5 mb-2">
-                      {Array.from({ length: item.stars }).map((_, i) => (
-                        <Star key={i} className="w-3.5 h-3.5 fill-[#F5A623] text-[#F5A623]" />
-                      ))}
-                    </div>
-                    <p className="font-semibold text-[#0A3D62] dark:text-[#F4F9FF] text-sm">{item.name}</p>
-                    <p className="text-xs text-[#1E272E]/50 dark:text-[#E0E0E0]/50 mt-0.5">{item.location[lang]}</p>
-                  </div>
-                </motion.div>
-              ))}
+            {/* See all reviews link */}
+            <div className="text-center">
+              <Link
+                to="/testimonials"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#0A3D62] hover:bg-[#0d4f80] dark:bg-[#1B6CA8] dark:hover:bg-[#1e7bbf] text-white font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
+              >
+                <Star className="w-4 h-4 fill-white" />
+                {lang === 'es' ? 'Ver Todas las Reseñas' : 'See All Reviews'}
+              </Link>
             </div>
           </div>
         </section>
