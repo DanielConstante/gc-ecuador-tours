@@ -11,7 +11,7 @@
       "es": "Aprox. 8 horas — regreso al hotel ~16:00",
       "en": "Approx. 8 hours — return to hotel ~16:00"
     },
-    "price": 150,
+    "price": 60,
     "currency": "USD",
     "category": "Cultural",
     "includes": {
@@ -21,7 +21,8 @@
         "Guía bilingüe personalizado",
         "Tour del Centro Histórico Patrimonio UNESCO",
         "Subida en Teleférico hasta Cruz Loma (4.200 m.s.n.m.)",
-        "Caminata al columpio y Cruz Loma (~30 min)"
+        "Caminata al columpio y Cruz Loma (~30 min)",
+        "El Panecillo — Monumento a la Virgen de Quito (vistas panorámicas)"
       ],
       "en": [
         "Hotel pickup",
@@ -29,7 +30,8 @@
         "Personalized bilingual guide",
         "UNESCO World Heritage Historic Center tour",
         "Teleférico cable car ride to Cruz Loma (4,200 m.a.s.l.)",
-        "Walk to the swing and Cruz Loma (~30 min)"
+        "Walk to the swing and Cruz Loma (~30 min)",
+        "El Panecillo — Virgin of Quito Monument (panoramic views)"
       ]
     },
     "itinerary": {
@@ -69,8 +71,8 @@
       "en": "Discover the best of Quito on an exclusive private tour. Starting with hotel pickup, we explore the UNESCO World Heritage Historic Center: the monumental Basilica del Voto Nacional, Independence Plaza with the Carondelet Palace, the dazzling Church of the Society of Jesus, Saint Francis Church, and the charming La Ronda street. We ascend El Panecillo for breathtaking views and the iconic Virgen de Quito statue. In the afternoon, experience the Teleférico: a 15-minute cable car ride to 4,200 meters above sea level followed by a 30-minute walk to the swing and Cruz Loma. Return to your hotel at approximately 16:00."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/quito.jpg",
     "featured": true
@@ -127,8 +129,8 @@
       "en": "Experience the unique thrill of standing right on the equatorial line, just 30 minutes from Quito. We start with a visit to the impressive Pululahua Volcano and its geobotanical reserve. Next, we explore the fascinating Intiñan Museum, where you can witness the physical phenomena of the equator firsthand on a guided English tour. We then visit the iconic Middle of the World Monument with its panoramic viewpoint, Ecuadorian artisan shops, and authentic local restaurants. A shorter but rich tour full of history, science, and culture."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. La entrada al Museo Intiñán ($5,00 por persona) no está incluida en el precio del tour.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. The Intiñan Museum entrance fee ($5.00 per person) is not included in the tour price."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. La entrada al Museo Intiñán ($5,00 por persona) no está incluida en el precio del tour. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. The Intiñan Museum entrance fee ($5.00 per person) is not included in the tour price. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/quito.jpg",
     "featured": false
@@ -145,7 +147,7 @@
       "es": "Día completo desde Quito",
       "en": "Full day trip from Quito"
     },
-    "price": 190,
+    "price": 150,
     "currency": "USD",
     "category": "Cultural",
     "includes": {
@@ -195,8 +197,8 @@
       "en": "Embark on a full day of culture, nature, and gastronomy from Quito. Our first stop is the Miralago Viewpoint, where we enjoy stunning views of Imbabura Volcano and Lake San Pablo, accompanied by coffee and traditional biscuits. We continue to the famous Otavalo Poncho Fair, the largest indigenous artisan market in South America, full of textiles, crafts, and jewelry. We then visit Peguche Waterfall, a sacred site for the Otavaleño people, and the charming town of Cotacachi, renowned for its handcrafted leather goods. We close the day at the majestic Cuicocha Lagoon, a volcanic crater lake with two islands within. A day filled with Andean wonders."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/otavalo.jpg",
     "featured": true
@@ -261,8 +263,8 @@
       "en": "Immerse yourself for three days in the paradise of the Mindo Cloud Forest. We depart from Quito with a special stop at the Intiñan Museum at the Middle of the World. Upon arriving in Mindo, we begin with the Yumbos Chocolate tour and a town exploration. The second day is dedicated to hummingbird watching among over 400 bird species and a hike to the impressive Nambillo Waterfall. On the third day we visit the colorful butterfly farm before returning to Quito. Price includes hotel and meals for the guide/driver."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Entrada al Museo Intiñán ($5,00 por persona) no incluida. Precio incluye hotel 2 noches y comidas del guía/conductor.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Intiñan Museum entrance ($5.00 per person) not included. Price includes 2 nights hotel and meals for the guide/driver."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Entrada al Museo Intiñán ($5,00 por persona) no incluida. Precio incluye hotel 2 noches y comidas del guía/conductor. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Intiñan Museum entrance ($5.00 per person) not included. Price includes 2 nights hotel and meals for the guide/driver. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/mindo.jpg",
     "featured": false
@@ -279,7 +281,7 @@
       "es": "Día completo desde Quito",
       "en": "Full day from Quito"
     },
-    "price": 180,
+    "price": 170,
     "currency": "USD",
     "category": "Aventura",
     "includes": {
@@ -325,11 +327,20 @@
       "en": "Discover the majestic Cotopaxi National Park, home to the world's highest active volcano. We travel in a private SUV for nearly two hours south on the Pan-American Highway. Once in the park, we hike around Limpiapungo Lagoon at 3,800 meters altitude, enjoying spectacular views of Cotopaxi Volcano in all its majesty. The authorized local guide provides detailed information about the area's geology, fauna, and flora. Opportunity for optional lunch at the historic Hacienda La Ciénega."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Es obligatorio usar un guía local autorizado por el Ministerio del Ambiente. El precio incluye permiso de entrada al parque ($40,00). Almuerzo opcional en Hacienda La Ciénega no incluido. Para la opción adicional de ascender a 5.200 metros en vehículo 4x4, consulte disponibilidad.",
-      "en": "The rate applies for four passengers. It is mandatory to use an authorized local guide per Ministry of Environment regulations. Price includes park entry permit ($40.00). Optional lunch at Hacienda La Ciénega not included. For additional option to ascend to 5,200 meters in 4x4 vehicle, check availability."
+      "es": "La tarifa es para cuatro pasajeros. Transporte privado: $130. Guía local autorizado (obligatorio por el Ministerio del Ambiente): $40. Total: $170. El precio incluye permiso de entrada al parque. Almuerzo opcional en Hacienda La Ciénega no incluido. Para la opción adicional de ascender a 5.200 metros en vehículo 4x4, consulte disponibilidad. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. Private transport: $130. Authorized local guide (mandatory per Ministry of Environment): $40. Total: $170. Price includes park entry permit. Optional lunch at Hacienda La Ciénega not included. For additional option to ascend to 5,200 meters in 4x4 vehicle, check availability. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/cotopaxi.jpg",
-    "featured": true
+    "featured": true,
+    "pricingOptions": {
+      "transport": 130,
+      "localGuide": 40,
+      "localGuideNote": {
+        "es": "Guía local autorizado — obligatorio",
+        "en": "Authorized local guide — mandatory"
+      },
+      "total": 170
+    }
   },
   {
     "id": 6,
@@ -395,8 +406,8 @@
       "en": "Experience an unforgettable adventure at the impressive Quilotoa Lagoon, a volcanic crater filled with turquoise water located at 3,800 meters altitude. We start with spectacular views from the lagoon viewpoint. Then you descend to the turquoise crater waters, where you can choose a kayak ride or simply enjoy nature. Delicious lunch with traditional Ecuadorian food, including specialties such as guinea pig and country chicken at an authentic local restaurant. The return ascent to the viewpoint can be done on foot, or if you prefer, on horseback for an additional cost of $15 per person."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros. Paseo en kayak (opcional, costo adicional). Retorno a caballo desde la laguna al mirador: $15 por persona.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers. Kayak ride optional (additional cost). Horseback return from lagoon to viewpoint: $15 per person."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros. Paseo en kayak (opcional, costo adicional). Retorno a caballo desde la laguna al mirador: $15 por persona. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers. Kayak ride optional (additional cost). Horseback return from lagoon to viewpoint: $15 per person. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/quilotoa.jpg",
     "featured": true
@@ -461,8 +472,8 @@
       "en": "Discover Baños de Agua Santa, an adventure paradise located between the Andean mountains and the Amazon. Walk to the impressive Pailón del Diablo Waterfall, cross the Pastaza River by cable car, relax in natural hot springs, and enjoy the famous Waterfall Route. A day full of adrenaline and nature."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/banos.jpg",
     "featured": true
@@ -479,7 +490,7 @@
       "es": "Aprox. 7 horas desde Quito",
       "en": "Approx. 7 hours from Quito"
     },
-    "price": 95,
+    "price": 120,
     "currency": "USD",
     "category": "Relax",
     "includes": {
@@ -527,8 +538,8 @@
       "en": "Relax in the natural hot springs of Papallacta, located in a spectacular mountain setting at 3,300 meters altitude. The waters come from nearby volcanoes and are rich in health-beneficial minerals. Includes optional hike through the unique Andean páramo ecosystem."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/papallacta.jpg",
     "featured": false
@@ -545,7 +556,7 @@
       "es": "Aprox. 9 horas — día completo desde Quito",
       "en": "Approx. 9 hours — full day from Quito"
     },
-    "price": 150,
+    "price": 140,
     "currency": "USD",
     "category": "Cultural",
     "includes": {
@@ -597,8 +608,8 @@
       "en": "Discover Ambato, known as the City of Fruits and Flowers, on a private tour from Quito. We visit its lively historic center, the Quinta of writer Juan Montalvo, and the fascinating Central Market, one of Ecuador's largest, brimming with exotic fruits, flowers, and crafts. We then head to Quisapincha, the premier leather artisan village, and finish with a visit to the magical Patate Valley, the Valley of Eternal Spring, with panoramic views of Tungurahua Volcano."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/ambato.jpg",
     "featured": false
@@ -659,8 +670,8 @@
       "en": "Cuenca, the Athens of Ecuador and a UNESCO World Heritage Site, is one of Latin America's most beautiful colonial cities. Over two days we explore the stunning Cajas National Park with its glacial lagoons, the fascinating historic center with its iconic blue domes, the Inca ruins of Pumapungo, workshops of the famous Panama hats (authentically made in Ecuador), and the Turi viewpoint for panoramic views of this unique city."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche de hotel y comidas del guía/conductor.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night hotel and meals for the guide/driver."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche de hotel y comidas del guía/conductor. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night hotel and meals for the guide/driver. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/cuenca.jpg",
     "featured": true
@@ -716,9 +727,18 @@
       "es": "Escápate al Pacífico en un viaje privado a Tonsupa y la costa de Esmeraldas. Cruzamos la cordillera occidental para descender a las cálidas aguas del Pacífico ecuatorial. Disfrutamos de la animada playa de Tonsupa, el malecón de Atacames y la tranquila y paradisíaca Playa de Same con su arena blanca. Incluye la opción de un tour en lancha por los manglares, hogar de aves tropicales y fauna costera única.",
       "en": "Escape to the Pacific on a private trip to Tonsupa and the Esmeraldas coast. We cross the western Andes to descend to the warm equatorial Pacific waters. We enjoy the lively Tonsupa beach, the Atacames boardwalk, and the tranquil paradise of Same Beach with its white sand. Includes the option of a boat tour through the mangroves, home to tropical birds and unique coastal wildlife."
     },
+    "pricingOptions": {
+      "oneWay": 200,
+      "roundTrip": 350,
+      "driverExtra": 50,
+      "driverExtraNote": {
+        "es": "Costo adicional por comida y hotel del conductor/guía",
+        "en": "Additional cost for driver/guide food and hotel"
+      }
+    },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche de hotel y comidas del guía/conductor. Tour de manglares con costo adicional.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night hotel and meals for the guide/driver. Mangrove tour at additional cost."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Solo pasajeros: costo ida $200 / ida y vuelta $350. Se añade $50 adicional por comida y hotel del conductor. Tour de manglares con costo adicional. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Passengers only: one way $200 / round trip $350. An additional $50 is added for the driver's food and hotel. Mangrove tour at additional cost. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/tonsupa.jpg",
     "featured": false
@@ -781,8 +801,8 @@
       "en": "Misahuallí is the most accessible gateway to the Ecuadorian Amazon from Quito. Over two days we live the complete jungle experience: we cross the Andes to descend into the Amazon basin, paddle by canoe on the Napo River at dawn, venture into primary rainforest with a Kichwa guide, visit an indigenous community and share their ancient traditions. The most magical moment: the semi-wild capuchin monkeys that roam freely in the town plaza and mingle with visitors."
     },
     "note": {
-      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche en lodge amazónico y comidas del guía/conductor.",
-      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night at Amazon lodge and meals for the guide/driver."
+      "es": "La tarifa es para cuatro pasajeros. Se añade un costo adicional de acuerdo al número de viajeros, hasta un máximo de 7 personas, que es la capacidad del vehículo. Precio incluye 1 noche en lodge amazónico y comidas del guía/conductor. Adicionalmente, se puede agregar servicio de transporte con anticipación para visitar varios sitios turísticos fuera de la ciudad. Transporte: $150,00 + hospedaje y alimentación del conductor/guía: $50,00. Total: $200,00 por día.",
+      "en": "The rate applies for four passengers. An additional cost is added according to the number of travelers, up to a maximum of 7 people, which is the vehicle's capacity. Price includes 1 night at Amazon lodge and meals for the guide/driver. Additionally, an advance transport service can be arranged to visit various tourist sites outside the city. Transport: $150.00 + driver/guide lodging and meals: $50.00. Total: $200.00 per day."
     },
     "image": "/images/misahualli.jpg",
     "featured": true
